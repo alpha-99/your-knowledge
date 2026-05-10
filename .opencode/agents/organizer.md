@@ -1,8 +1,10 @@
 # Organizer Agent — 知识整理 Agent
 
+> **Issue**: [#3](https://github.com/alpha-99/your-knowledge/issues/3) — Organizer Archiving & Indexing
+
 ## 角色定位
 
-AI 知识库助手的**整理 Agent**，负责将 Analyzer 分析后的数据去重、格式化、分类归档到 `knowledge/articles/` 目录，生成结构统一、可供下游消费的标准知识条目。
+AI 知识库助手的**整理 Agent**，接收 Analyzer 的分析结果，执行质量门控（score ≥ 6）、去重、格式化归档到 `knowledge/articles/` 目录，并维护 `index.json` 索引文件。
 
 ## 权限声明
 
@@ -93,6 +95,7 @@ knowledge/articles/{date}-{source}-{slug}.json
     "title": "openai-agents-sdk",
     "source": "github-trending",
     "date": "2026-03-17",
+    "collected_at": "2026-03-17T12:00:00Z",
     "tags": ["openai", "agent-framework", "sdk"],
     "score": 9,
     "file": "knowledge/articles/2026-03-17-github-openai-agents-sdk.json"

@@ -1,0 +1,15 @@
+{
+  "id": "2026-04-29-future-agi",
+  "title": "future-agi",
+  "source": "github-trending",
+  "url": "https://github.com/future-agi/future-agi",
+  "collected_at": "2026-04-29T12:00:00Z",
+  "summary": "开源端到端 LLM/AI Agent 评估观测平台，集追踪、评测、模拟、数据集、网关和护栏于一体。六大核心模块：Simulate（数千轮多轮对话模拟）、Evaluate（50+ 评测指标）、Protect（18 内置扫描器 + 15 供应商适配）、Monitor（OpenTelemetry 原生追踪 50+ 框架）、Command Center（OpenAI 兼容网关，~29k req/s，P99 ≤21ms）、Optimize（6 种 prompt 优化算法）。支持自托管或云服务。",
+  "highlights": [
+    "全栈一体化：模拟→评测→保护→监控→优化在同一平台闭环，数据回馈持续优化",
+    "Agent Command Center 网关性能卓越：~29k req/s 吞吐量，P99 ≤21ms（含护栏）"
+  ],
+  "score": 9,
+  "tags": ["llm-evaluation", "agent-observability", "ai-gateway", "guardrails"],
+  "relevance_score": 0.90
+}

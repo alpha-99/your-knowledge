@@ -1,0 +1,15 @@
+{
+  "id": "2026-04-29-ai-native-pm-os",
+  "title": "ai-native-pm-os",
+  "source": "github-trending",
+  "url": "https://github.com/vishalmdi/ai-native-pm-os",
+  "collected_at": "2026-04-29T12:00:00Z",
+  "summary": "面向产品经理的 Claude 精通指南，包含 11 个模块 40+ 小时内容，涵盖 PRD 生成、调研综合、汇报材料、自主 Agent 构建等工作流。结合 MCP 协议和 Claude Code，帮助 PM 构建 AI 原生的个人操作系统，产出可直接使用的真实交付物。",
+  "highlights": [
+    "11 模块 40+ 小时结构化课程，覆盖 PM 从需求到交付的全工作流",
+    "包含 MCP 和自主 Agent 构建章节，超越简单提示词使用"
+  ],
+  "score": 6,
+  "tags": ["claude", "product-management", "tutorial", "pm-tools"],
+  "relevance_score": 0.60
+}

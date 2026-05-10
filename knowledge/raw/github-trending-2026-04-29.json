@@ -1,0 +1,72 @@
+[
+  {
+    "title": "harmonist",
+    "url": "https://github.com/GammaLabTechnologies/harmonist",
+    "source": "github-trending",
+    "popularity": 850,
+    "summary": "便携式 AI Agent 编排框架，支持机械协议执行，内置 186 个 Agent 且零运行时依赖。"
+  },
+  {
+    "title": "future-agi",
+    "url": "https://github.com/future-agi/future-agi",
+    "source": "github-trending",
+    "popularity": 713,
+    "summary": "开源端到端 LLM 和 AI Agent 评估、观测与改进平台，支持追踪、评测、模拟、数据集、网关和护栏功能。"
+  },
+  {
+    "title": "clawd.rip",
+    "url": "https://github.com/maria-rcks/clawd.rip",
+    "source": "github-trending",
+    "popularity": 82,
+    "summary": "Claude Code 问题汇总网站，记录和讨论 Claude 智能编码助手的使用问题与社区反馈。"
+  },
+  {
+    "title": "ai-native-pm-os",
+    "url": "https://github.com/vishalmdi/ai-native-pm-os",
+    "source": "github-trending",
+    "popularity": 55,
+    "summary": "面向产品经理的 Claude 使用完整指南，涵盖 PRD 生成、调研综合、汇报材料及自主 Agent 构建等 11 个模块。"
+  },
+  {
+    "title": "AgentForge",
+    "url": "https://github.com/Saichandra2520/AgentForge",
+    "source": "github-trending",
+    "popularity": 17,
+    "summary": "生产级 AI Agent 项目脚手架工具，一条 CLI 命令即可生成 ReAct、RAG 和多 Agent Supervisor 模式的 Python 项目。"
+  },
+  {
+    "title": "huangweiqingclaw",
+    "url": "https://github.com/huangwwqq/huangweiqingclaw",
+    "source": "github-trending",
+    "popularity": 12,
+    "summary": "基于 OpenClaw 演进的多模态 AI Agent 引擎，支持动态技能加载与上下文降维算法，实现本地自动化编排。"
+  },
+  {
+    "title": "rig",
+    "url": "https://github.com/SrihariLegend/rig",
+    "source": "github-trending",
+    "popularity": 11,
+    "summary": "用 C 语言编写的 AI 编码 Agent，单二进制文件、零运行时依赖、支持所有主流 LLM 提供商。"
+  },
+  {
+    "title": "Virutal-Agent",
+    "url": "https://github.com/devpulse-star/Virutal-Agent",
+    "source": "github-trending",
+    "popularity": 9,
+    "summary": "AI 驱动的虚拟 Agent 系统，基于 API 架构，支持 LLM 对话、任务自动化和可扩展的后端工作流。"
+  },
+  {
+    "title": "yunikorn-mcp-server",
+    "url": "https://github.com/frenoid/yunikorn-mcp-server",
+    "source": "github-trending",
+    "popularity": 9,
+    "summary": "Apache YuniKorn 的 MCP 协议服务器，允许 LLM Agent 通过 Model Context Protocol 与 Kubernetes 资源调度系统交互。"
+  },
+  {
+    "title": "agent-skills",
+    "url": "https://github.com/a-tokyo/agent-skills",
+    "source": "github-trending",
+    "popularity": 8,
+    "summary": "AI Agent 技能仓库，提供可复用的技能模块，帮助 Agent 快速获得特定领域能力。"
+  }
+]

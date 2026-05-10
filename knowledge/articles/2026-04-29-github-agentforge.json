@@ -1,0 +1,15 @@
+{
+  "id": "2026-04-29-agentforge",
+  "title": "AgentForge",
+  "source": "github-trending",
+  "url": "https://github.com/Saichandra2520/AgentForge",
+  "collected_at": "2026-04-29T12:00:00Z",
+  "summary": "生产级 AI Agent 项目脚手架工具，一条 CLI 命令即可生成 ReAct、RAG 和多 Agent Supervisor 三种模式的 Python 项目。基于 LangChain/LangGraph 生态，内置 FastAPI 服务模板和完整项目结构。",
+  "highlights": [
+    "一行命令生成完整项目结构，含 FastAPI 服务和预配置 Agent 模板",
+    "支持三种主流 Agent 模式：ReAct、RAG、多 Agent Supervisor"
+  ],
+  "score": 6,
+  "tags": ["scaffolding", "agent-framework", "developer-tools", "cli"],
+  "relevance_score": 0.60
+}

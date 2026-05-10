@@ -1,0 +1,52 @@
+[
+  {
+    "id": "2026-04-29-harmonist",
+    "title": "harmonist",
+    "source": "github-trending",
+    "date": "2026-04-29",
+    "collected_at": "2026-04-29T12:00:00Z",
+    "tags": ["agent-framework", "orchestration", "protocol-enforcement", "ai-coding-assistant"],
+    "score": 9,
+    "file": "knowledge/articles/2026-04-29-github-harmonist.json"
+  },
+  {
+    "id": "2026-04-29-future-agi",
+    "title": "future-agi",
+    "source": "github-trending",
+    "date": "2026-04-29",
+    "collected_at": "2026-04-29T12:00:00Z",
+    "tags": ["llm-evaluation", "agent-observability", "ai-gateway", "guardrails"],
+    "score": 9,
+    "file": "knowledge/articles/2026-04-29-github-future-agi.json"
+  },
+  {
+    "id": "2026-04-29-ai-native-pm-os",
+    "title": "ai-native-pm-os",
+    "source": "github-trending",
+    "date": "2026-04-29",
+    "collected_at": "2026-04-29T12:00:00Z",
+    "tags": ["claude", "product-management", "tutorial", "pm-tools"],
+    "score": 6,
+    "file": "knowledge/articles/2026-04-29-github-ai-native-pm-os.json"
+  },
+  {
+    "id": "2026-04-29-agentforge",
+    "title": "AgentForge",
+    "source": "github-trending",
+    "date": "2026-04-29",
+    "collected_at": "2026-04-29T12:00:00Z",
+    "tags": ["scaffolding", "agent-framework", "developer-tools", "cli"],
+    "score": 6,
+    "file": "knowledge/articles/2026-04-29-github-agentforge.json"
+  },
+  {
+    "id": "2026-04-29-huangweiqingclaw",
+    "title": "huangweiqingclaw",
+    "source": "github-trending",
+    "date": "2026-04-29",
+    "collected_at": "2026-04-29T12:00:00Z",
+    "tags": ["agent-engine", "multi-modal", "skill-loading", "context-compression"],
+    "score": 6,
+    "file": "knowledge/articles/2026-04-29-github-huangweiqingclaw.json"
+  }
+]
