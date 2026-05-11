@@ -1,0 +1,15 @@
+{
+  "id": "github-trending-2026-05-10-nanobot",
+  "title": "nanobot",
+  "source": "github-trending",
+  "url": "https://github.com/HKUDS/nanobot",
+  "collected_at": "2026-05-10T14:41:39Z",
+  "summary": "超轻量级个人 AI Agent，支持 OpenAI/Claude 等模型，极简设计易于本地部署，仅 3 个月获 4.2 万 star。",
+  "highlights": [
+    "超轻量级个人 AI Agent，极简设计易于本地部署",
+    "支持 OpenAI/Claude 等模型，仅 3 个月获 4.2 万 star"
+  ],
+  "score": 6,
+  "tags": ["personal-ai", "lightweight", "local-deployment", "openclaw-alternative"],
+  "relevance_score": 0.60
+}

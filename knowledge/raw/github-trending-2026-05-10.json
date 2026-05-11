@@ -1,0 +1,127 @@
+{
+  "source": "github-trending",
+  "skill": "github-trending",
+  "collect_at": "2026-05-10T14:41:39Z",
+  "items": [
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "summary": "Hermes Agent 是 Nous Research 推出的自我进化 AI Agent，支持多 LLM 后端，能从使用中学习成长，拥有 14 万 star。",
+      "stars": 141906,
+      "language": "Python",
+      "topics": ["ai", "ai-agent", "ai-agents", "llm", "hermes", "openclaw", "claude-code", "codex"]
+    },
+    {
+      "name": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "summary": "Dify 是生产级 Agent 工作流开发平台，支持可视化编排、RAG 检索和 MCP 协议，帮助开发者快速构建和部署 LLM 驱动的智能应用。",
+      "stars": 140814,
+      "language": "TypeScript",
+      "topics": ["agent", "agentic-ai", "agentic-workflow", "ai", "llm", "mcp", "rag", "orchestration"]
+    },
+    {
+      "name": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "summary": "LangChain 是业界领先的 Agent 工程平台，支持 Python/TypeScript，覆盖 Agent 构建、工具调用与记忆管理等完整开发体系。",
+      "stars": 136299,
+      "language": "Python",
+      "topics": ["agents", "ai", "ai-agents", "langgraph", "llm", "rag", "multiagent"]
+    },
+    {
+      "name": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "summary": "browser-use 让 AI Agent 能够像人类一样操作浏览器，基于 Playwright 实现网页自动化，支持多种 LLM 驱动的智能任务执行。",
+      "stars": 93201,
+      "language": "Python",
+      "topics": ["ai-agents", "ai-tools", "browser-automation", "llm", "playwright"]
+    },
+    {
+      "name": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "summary": "OpenHands 是 AI 驱动的软件开发平台，支持 Claude、GPT 等多种 LLM，让 AI Agent 辅助完成编码、调试和项目全流程管理。",
+      "stars": 73040,
+      "language": "Python",
+      "topics": ["agent", "artificial-intelligence", "llm", "developer-tools", "cli"]
+    },
+    {
+      "name": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "summary": "DeerFlow 是字节跳动开源的长周期超级 Agent 框架，集成沙箱、记忆、工具和多 Agent 协作，能处理长达数小时的复杂研究编码任务。",
+      "stars": 66363,
+      "language": "Python",
+      "topics": ["agent", "agentic", "ai-agents", "llm", "multi-agent", "superagent", "harness"]
+    },
+    {
+      "name": "mem0ai/mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "summary": "Mem0 是 AI Agent 的通用记忆层，为 Agent 提供长期记忆管理和上下文保持能力，是实现有状态 Agent 系统的关键基础设施。",
+      "stars": 55294,
+      "language": "Python",
+      "topics": ["agents", "ai", "ai-agents", "llm", "memory", "rag", "long-term-memory"]
+    },
+    {
+      "name": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "summary": "Pi 是 AI Agent 工具包，集成编码 Agent CLI、统一 LLM API 和 Web UI，为 Agent 开发提供一站式高效解决方案。",
+      "stars": 47505,
+      "language": "TypeScript",
+      "topics": ["ai", "agent", "coding-agent", "cli", "llm"]
+    },
+    {
+      "name": "aaif-goose/goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "summary": "Goose 是开源的、可扩展的 AI Agent，超越代码补全，能安装、执行、编辑和测试，支持任何 LLM 后端，基于 Rust 构建保证高性能。",
+      "stars": 44918,
+      "language": "Rust",
+      "topics": ["acp", "ai", "ai-agents", "mcp", "llm"]
+    },
+    {
+      "name": "zhayujie/CowAgent",
+      "url": "https://github.com/zhayujie/CowAgent",
+      "summary": "CowAgent 是基于 LLM 的超级 AI 助理，支持微信、飞书、钉钉等多平台接入，能主动思考、任务规划和技能学习，可快速搭建个人或企业数字员工。",
+      "stars": 44274,
+      "language": "Python",
+      "topics": ["ai", "ai-agent", "llm", "mcp", "multi-agent", "openclaw", "skills"]
+    },
+    {
+      "name": "HKUDS/nanobot",
+      "url": "https://github.com/HKUDS/nanobot",
+      "summary": "nanobot 是超轻量级个人 AI Agent，支持 OpenAI、Claude 等多种模型，以极简设计实现高效的本地部署与任务执行。",
+      "stars": 42131,
+      "language": "Python",
+      "topics": ["ai", "ai-agent", "llm", "openclaw", "claude-code"]
+    },
+    {
+      "name": "langchain-ai/langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "summary": "LangGraph 用于构建弹性语言 Agent 图，支持状态管理、多 Agent 协作和工作流编排，是 LangChain 生态的核心框架。",
+      "stars": 31654,
+      "language": "Python",
+      "topics": ["agents", "ai", "ai-agents", "langgraph", "llm", "multiagent", "rag"]
+    },
+    {
+      "name": "CopilotKit/CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "summary": "CopilotKit 是面向 Agent 和生成式 UI 的前端技术栈，支持 React/Angular，是构建 AI 驱动交互式应用界面的首选框架。",
+      "stars": 31207,
+      "language": "TypeScript",
+      "topics": ["agent", "ai", "ai-agent", "llm", "generative-ui", "react", "typescript"]
+    },
+    {
+      "name": "openai/openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "summary": "OpenAI 官方推出的轻量级多 Agent 框架，支持 Agent 协作、工具调用和完整追踪，是构建复杂多 Agent 工作流系统的简洁高效方案。",
+      "stars": 26137,
+      "language": "Python",
+      "topics": ["agents", "ai", "llm", "openai", "python"]
+    },
+    {
+      "name": "mastra-ai/mastra",
+      "url": "https://github.com/mastra-ai/mastra",
+      "summary": "Mastra 是 Gatsby 团队打造的 TypeScript AI Agent 框架，支持工作流与 MCP 协议，为现代 AI 应用提供类型安全技术栈。",
+      "stars": 23742,
+      "language": "TypeScript",
+      "topics": ["agents", "ai", "llm", "mcp", "workflows", "typescript"]
+    }
+  ]
+}

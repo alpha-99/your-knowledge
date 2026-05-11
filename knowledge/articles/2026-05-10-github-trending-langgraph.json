@@ -1,0 +1,15 @@
+{
+  "id": "github-trending-2026-05-10-langgraph",
+  "title": "langgraph",
+  "source": "github-trending",
+  "url": "https://github.com/langchain-ai/langgraph",
+  "collected_at": "2026-05-10T14:41:39Z",
+  "summary": "LangChain 团队的图式 Agent 编排框架，支持状态管理、多 Agent 协作和弹性工作流，构建可靠 Agent 系统的核心引擎，3.2 万 star。",
+  "highlights": [
+    "LangChain 团队的图式 Agent 编排框架",
+    "支持状态管理、多 Agent 协作和弹性工作流"
+  ],
+  "score": 7,
+  "tags": ["graph-orchestration", "state-management", "multi-agent", "resilient"],
+  "relevance_score": 0.70
+}

@@ -1,0 +1,15 @@
+{
+  "id": "github-trending-2026-05-10-langchain",
+  "title": "langchain",
+  "source": "github-trending",
+  "url": "https://github.com/langchain-ai/langchain",
+  "collected_at": "2026-05-10T14:41:39Z",
+  "summary": "业界标杆 Agent 工程平台，覆盖 Agent 构建、工具调用、记忆管理、多 Agent 协作，Python/TypeScript 双语言，13.6 万 star。",
+  "highlights": [
+    "业界标杆 Agent 工程平台，Python/TypeScript 双语言支持",
+    "覆盖 Agent 构建、工具调用、记忆管理和多 Agent 协作"
+  ],
+  "score": 8,
+  "tags": ["agent-framework", "multi-agent", "rag", "llm-orchestration"],
+  "relevance_score": 0.80
+}

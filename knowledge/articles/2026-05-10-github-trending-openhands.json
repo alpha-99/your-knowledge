@@ -1,0 +1,15 @@
+{
+  "id": "github-trending-2026-05-10-openhands",
+  "title": "openhands",
+  "source": "github-trending",
+  "url": "https://github.com/OpenHands/OpenHands",
+  "collected_at": "2026-05-10T14:41:39Z",
+  "summary": "AI 驱动的软件开发平台，支持 Claude/GPT 等多 LLM，Agent 辅助编码、调试和项目管理全流程，7.3 万 star。",
+  "highlights": [
+    "AI 驱动的软件开发平台，支持 Claude/GPT 等多 LLM",
+    "Agent 辅助编码、调试和项目管理全流程"
+  ],
+  "score": 7,
+  "tags": ["coding-agent", "developer-tools", "multi-llm", "cli"],
+  "relevance_score": 0.70
+}

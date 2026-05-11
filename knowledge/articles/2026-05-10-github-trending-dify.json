@@ -1,0 +1,15 @@
+{
+  "id": "github-trending-2026-05-10-dify",
+  "title": "dify",
+  "source": "github-trending",
+  "url": "https://github.com/langgenius/dify",
+  "collected_at": "2026-05-10T14:41:39Z",
+  "summary": "生产级 Agentic 工作流平台，可视化编排 + RAG 检索 + MCP 协议，低代码构建 LLM 驱动的智能应用，14 万 star。",
+  "highlights": [
+    "可视化编排工作流 + RAG 检索 + MCP 协议一体化平台",
+    "低代码构建 LLM 驱动的智能应用，14 万 star"
+  ],
+  "score": 8,
+  "tags": ["agentic-workflow", "mcp-protocol", "rag", "low-code"],
+  "relevance_score": 0.80
+}

@@ -1,0 +1,15 @@
+{
+  "id": "github-trending-2026-05-10-browser-use",
+  "title": "browser-use",
+  "source": "github-trending",
+  "url": "https://github.com/browser-use/browser-use",
+  "collected_at": "2026-05-10T14:41:39Z",
+  "summary": "让 AI Agent 像人一样操作浏览器的自动化工具，基于 Playwright，支持多 LLM 驱动网页任务，9.3 万 star。",
+  "highlights": [
+    "基于 Playwright 的 AI Agent 浏览器自动化工具",
+    "支持多 LLM 驱动网页任务执行，9.3 万 star"
+  ],
+  "score": 7,
+  "tags": ["browser-automation", "playwright", "web-agent", "multi-llm"],
+  "relevance_score": 0.70
+}

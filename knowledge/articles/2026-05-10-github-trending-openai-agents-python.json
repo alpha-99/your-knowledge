@@ -1,0 +1,15 @@
+{
+  "id": "github-trending-2026-05-10-openai-agents-python",
+  "title": "openai-agents-python",
+  "source": "github-trending",
+  "url": "https://github.com/openai/openai-agents-python",
+  "collected_at": "2026-05-10T14:41:39Z",
+  "summary": "OpenAI 官方轻量级多 Agent 框架，支持 Agent 协作、工具调用和完整追踪，2.6 万 star。",
+  "highlights": [
+    "OpenAI 官方轻量级多 Agent 框架",
+    "支持 Agent 协作、工具调用和完整追踪，2.6 万 star"
+  ],
+  "score": 8,
+  "tags": ["agent-framework", "multi-agent", "openai", "tracing"],
+  "relevance_score": 0.80
+}

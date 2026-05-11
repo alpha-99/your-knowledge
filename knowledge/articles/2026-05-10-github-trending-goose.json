@@ -1,0 +1,15 @@
+{
+  "id": "github-trending-2026-05-10-goose",
+  "title": "goose",
+  "source": "github-trending",
+  "url": "https://github.com/aaif-goose/goose",
+  "collected_at": "2026-05-10T14:41:39Z",
+  "summary": "开源可扩展 AI Agent，超越代码补全——可安装/执行/编辑/测试，基于 Rust 构建保证高性能，支持任意 LLM 后端，4.5 万 star。",
+  "highlights": [
+    "基于 Rust 构建的高性能可扩展 AI Agent",
+    "超越代码补全——可安装/执行/编辑/测试，支持任意 LLM 后端"
+  ],
+  "score": 7,
+  "tags": ["coding-agent", "rust", "mcp-protocol", "high-performance"],
+  "relevance_score": 0.70
+}

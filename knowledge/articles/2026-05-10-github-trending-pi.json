@@ -1,0 +1,15 @@
+{
+  "id": "github-trending-2026-05-10-pi",
+  "title": "pi",
+  "source": "github-trending",
+  "url": "https://github.com/earendil-works/pi",
+  "collected_at": "2026-05-10T14:41:39Z",
+  "summary": "AI Agent 工具包，内置编码 Agent CLI / 统一 LLM API / TUI+Web UI / Slack Bot / vLLM Pods，4.8 万 star。",
+  "highlights": [
+    "AI Agent 工具包，内置编码 Agent CLI 和统一 LLM API",
+    "提供 TUI+Web UI + Slack Bot + vLLM Pods 全功能集成"
+  ],
+  "score": 6,
+  "tags": ["agent-toolkit", "coding-agent", "unified-api", "cli"],
+  "relevance_score": 0.60
+}
