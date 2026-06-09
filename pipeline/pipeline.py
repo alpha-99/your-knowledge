@@ -29,6 +29,7 @@ from pathlib import Path
 from typing import Any, Sequence
 
 import httpx
+import yaml
 
 from model_client import create_provider, chat_with_retry
 
@@ -58,14 +59,23 @@ _INDEX_FILE = _ARTICLES_DIR / "index.json"
 
 _GITHUB_SEARCH_URL = "https://api.github.com/search/repositories"
 
-_RSS_FEEDS: list[str] = [
-    "https://hnrss.org/frontpage",
-    "http://export.arxiv.org/rss/cs.AI",
-    "http://export.arxiv.org/rss/cs.CL",
-]
+_RSS_SOURCES_FILE = _PROJECT_ROOT / "pipeline" / "rss_sources.yaml"
 
 _RSS_MAX_PER_FEED = 15
 _RSS_FETCH_TIMEOUT = 20.0
+
+
+def _load_rss_sources() -> list[dict[str, Any]]:
+    """Load enabled RSS sources from ``rss_sources.yaml``."""
+    if not _RSS_SOURCES_FILE.exists():
+        logger.warning("RSS sources file not found: %s", _RSS_SOURCES_FILE)
+        return []
+    with open(_RSS_SOURCES_FILE, encoding="utf-8") as fh:
+        data = yaml.safe_load(fh)
+    sources = data.get("sources", []) if data else []
+    enabled = [s for s in sources if s.get("enabled", True)]
+    logger.info("Loaded %d RSS sources (%d enabled)", len(sources), len(enabled))
+    return enabled
 
 _GITHUB_FETCH_TIMEOUT = 30.0
 
@@ -117,11 +127,6 @@ _HTTP_ERRORS: tuple[type[Exception], ...] = (
 # Helpers
 # ============================================================================
 
-
-def _slugify(text: str) -> str:
-    slug = re.sub(r"[^a-zA-Z0-9\u4e00-\u9fff]+", "-", text.lower())
-    slug = slug.strip("-")
-    return slug[:80] if slug else "unknown"
 
 
 def _now_iso() -> str:
@@ -311,7 +316,6 @@ def _collect(
     Returns a list of raw items with assigned IDs.
     """
     since = date.today() - timedelta(days=since_days)
-    today = _today_str()
     raw_items: list[dict[str, Any]] = []
     active_sources = [s for s in ("github", "rss") if s in sources]
     num_sources = len(active_sources)
@@ -341,9 +345,13 @@ def _collect(
 
     remaining = limit - len(raw_items)
     if "rss" in sources and remaining > 0:
-        for feed_url in _RSS_FEEDS:
+        rss_sources = _load_rss_sources()
+        for src in rss_sources:
             if remaining <= 0:
                 break
+            feed_url = src["url"]
+            source_name = src.get("name", "")
+            category = src.get("category", "")
             rss_items = _fetch_rss(client, feed_url, max_items=remaining)
             for it in rss_items:
                 raw_items.append(
@@ -352,6 +360,8 @@ def _collect(
                         "title": it.get("title", ""),
                         "source": "rss",
                         "source_url": it.get("url", ""),
+                        "source_name": source_name,
+                        "category": category,
                         "author": "",
                         "published_at": it.get("published_at", ""),
                         "raw_description": it.get("raw_description", ""),
@@ -363,9 +373,17 @@ def _collect(
                 )
             remaining = limit - len(raw_items)
 
-    for idx, item in enumerate(raw_items, 1):
+    date_str = datetime.now().strftime("%Y%m%d")
+    github_count = 0
+    rss_count = 0
+    for item in raw_items:
         src = item["source"]
-        item["id"] = f"{src}-{today.replace('-', '')}-{idx:03d}"
+        if src == "github":
+            github_count += 1
+            item["id"] = f"github-{date_str}-{github_count:03d}"
+        elif src == "rss":
+            rss_count += 1
+            item["id"] = f"rss-{date_str}-{rss_count:03d}"
 
     logger.info(
         "Collect  %d total items (github=%s, rss=%s)",
@@ -583,7 +601,9 @@ def _standardize(item: dict[str, Any]) -> dict[str, Any]:
         "id": str(item.get("id", "")),
         "title": str(item.get("title", "")),
         "source": str(item.get("source", "")),
+        "source_name": str(item.get("source_name", "")),
         "source_url": str(item.get("source_url", "")),
+        "category": str(item.get("category", "")),
         "author": str(item.get("author", "")),
         "published_at": str(item.get("published_at", "")),
         "collected_at": str(item.get("collected_at", "")),
@@ -680,16 +700,8 @@ def _organize(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def _article_filename(article: dict[str, Any]) -> str:
-    title = article.get("title", "") or article.get("id", "unknown")
-    slug = _slugify(title)
-    aid = article.get("id", "")
-    m = re.search(r"(\d{8})", aid)
-    if m:
-        ds = m.group(1)
-        date_part = f"{ds[:4]}-{ds[4:6]}-{ds[6:8]}"
-    else:
-        date_part = _today_str()
-    return f"{date_part}-{slug}.json"
+    aid = article.get("id", "") or "unknown"
+    return f"{aid}.json"
 
 
 def _rebuild_index() -> None:

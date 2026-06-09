@@ -48,7 +48,7 @@ _DEFAULTS: dict[str, dict] = {
     "deepseek": {
         "api_base": "https://api.deepseek.com/v1",
         "api_key_env": "DEEPSEEK_API_KEY",
-        "default_model": "deepseek pro v4",
+        "default_model": "deepseek-v4-pro",
         "pricing_input": 0.27,
         "pricing_output": 1.10,
     },
