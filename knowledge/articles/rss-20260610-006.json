@@ -1,27 +1,27 @@
 {
   "id": "rss-20260610-006",
-  "title": "Apple reveals new AI architecture built around Google Gemini models",
+  "title": "Give your agent its own computer",
   "source": "rss",
-  "source_name": "Hacker News Best",
-  "source_url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
-  "category": "综合技术",
+  "source_name": "LangChain Blog",
+  "source_url": "https://www.langchain.com/blog/give-your-ai-agent-its-own-computer",
+  "category": "框架",
   "author": "",
-  "published_at": "Mon, 08 Jun 2026 19:14:47 +0000",
-  "collected_at": "2026-06-10T03:33:39Z",
-  "summary": "苹果公布以Google Gemini模型为核心的新AI架构，结合设备端处理与隐私云，实现高效、安全的多模态智能体验。",
+  "published_at": "Fri, 05 Jun 2026 17:33:10 GMT",
+  "collected_at": "2026-06-10T11:42:55Z",
+  "summary": "AI代理需要专用计算机，LangSmith沙箱提供隔离执行环境，内置文件系统、Shell、包管理器和持久状态，以安全支持大规模代码执行。",
   "score": 7,
   "tags": [
-    "apple",
-    "google-gemini",
-    "ai-architecture",
-    "on-device-ai"
+    "agent-sandbox",
+    "langchain",
+    "code-execution",
+    "ai-safety"
   ],
   "audience": "intermediate",
   "highlights": [
-    "以Gemini模型为引擎，Apple自研编排层实现动态分流：敏感数据本地处理，复杂任务转发至Private Cloud Compute",
-    "系统级深度集成，跨应用上下文共享与意图预测，响应延迟<200ms",
-    "端侧模型通过Core ML优化，支持实时语义索引与离线图像生成，功耗控制在0.5W以内"
+    "沙箱提供完整执行环境：文件系统、Shell、包管理器，模拟真实计算机",
+    "支持持久状态，使代理跨任务保留上下文和数据",
+    "安全隔离设计，避免直接访问基础设施，降低大规模代理部署风险"
   ],
   "status": "published",
-  "updated_at": "2026-06-10T03:39:04Z"
+  "updated_at": "2026-06-10T11:47:21Z"
 }

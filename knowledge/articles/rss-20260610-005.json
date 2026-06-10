@@ -1,27 +1,27 @@
 {
   "id": "rss-20260610-005",
-  "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
+  "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
   "source": "rss",
-  "source_name": "Hacker News Best",
-  "source_url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
-  "category": "综合技术",
+  "source_name": "Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+  "category": "公司博客",
   "author": "",
-  "published_at": "Tue, 09 Jun 2026 07:33:16 +0000",
-  "collected_at": "2026-06-10T03:33:39Z",
-  "summary": "微软开源工具遭供应链攻击，恶意代码窃取AI开发者密码，突显开发工具链安全风险。",
-  "score": 6,
+  "published_at": "Tue, 09 Jun 2026 10:46:19 GMT",
+  "collected_at": "2026-06-10T11:42:55Z",
+  "summary": "本文演示通过Agent串联两个HF Spaces，自动将文本生成图像并转换为3D场景，实现巴黎画廊的端到端构建。",
+  "score": 8,
   "tags": [
-    "supply-chain-attack",
-    "credential-theft",
-    "ai-developers",
-    "open-source-security"
+    "agent-chaining",
+    "huggingface-spaces",
+    "3d-gallery",
+    "low-code"
   ],
   "audience": "intermediate",
   "highlights": [
-    "恶意VS Code扩展通过官方市场分发，实现自动化供应链攻击",
-    "窃取目标包括GitHub令牌、云服务密钥及AI平台API密钥",
-    "微软已紧急下架恶意插件，并发布安全公告与修复方案"
+    "利用Agent自动调用Stable Diffusion图像生成与3D场景重建两个Spaces",
+    "完全基于Hugging Face平台，无服务器集成，实现一键式复杂应用",
+    "生成可交互的3D巴黎画廊，展示端到端AI内容创建流水线"
   ],
   "status": "published",
-  "updated_at": "2026-06-10T03:39:04Z"
+  "updated_at": "2026-06-10T11:47:21Z"
 }

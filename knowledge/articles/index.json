@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T03:39:04Z",
+  "updated_at": "2026-06-10T11:47:21Z",
   "total": 20,
   "articles": [
     {
@@ -109,15 +109,15 @@
     },
     {
       "id": "github-20260610-008",
-      "title": "cellebrite-labs/ghidra-rpc",
+      "title": "ziqihe10-droid/xuefeng-agent",
       "source": "github",
-      "source_url": "https://github.com/cellebrite-labs/ghidra-rpc",
-      "score": 8,
+      "source_url": "https://github.com/ziqihe10-droid/xuefeng-agent",
+      "score": 6,
       "tags": [
-        "ghidra-rpc",
-        "agentic-reverse-engineering",
-        "remote-procedure-call",
-        "automated-analysis"
+        "ai-assistant",
+        "education",
+        "agent-framework",
+        "china-gaokao"
       ],
       "status": "published",
       "file": "github-20260610-008.json"
@@ -154,15 +154,15 @@
     },
     {
       "id": "rss-20260610-001",
-      "title": "If Claude Fable stops helping you, you'll never know",
+      "title": "German ruling declares Google liable for false answers in AI Overviews",
       "source": "rss",
-      "source_url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "source_url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
       "score": 7,
       "tags": [
-        "ai-safety",
-        "llm-behavior",
-        "system-prompt",
-        "adversarial-attack"
+        "ai-liability",
+        "ai-overviews",
+        "content-moderation",
+        "legal-tech"
       ],
       "status": "published",
       "file": "rss-20260610-001.json"
@@ -184,90 +184,89 @@
     },
     {
       "id": "rss-20260610-003",
-      "title": "Claude Fable 5",
+      "title": "Business World Model",
       "source": "rss",
-      "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-      "score": 8,
+      "source_url": "https://arxiv.org/abs/2606.10044",
+      "score": 7,
       "tags": [
-        "claude",
-        "system-card",
-        "safety",
-        "responsible-ai"
+        "business-world-model",
+        "autonomous-systems",
+        "planning",
+        "simulation"
       ],
       "status": "published",
       "file": "rss-20260610-003.json"
     },
     {
       "id": "rss-20260610-004",
-      "title": "Cleaning up after AI rockstar developers",
+      "title": "From data to decisions: how LSEG is scaling trusted AI",
       "source": "rss",
-      "source_url": "https://www.codingwithjesse.com/blog/rockstar-developers/",
-      "score": 7,
+      "source_url": "https://openai.com/index/lseg",
+      "score": 8,
       "tags": [
-        "ai-code-generation",
-        "technical-debt",
-        "code-quality",
-        "developer-workflow"
+        "enterprise-ai",
+        "trusted-ai",
+        "financial-services",
+        "llm-deployment"
       ],
       "status": "published",
       "file": "rss-20260610-004.json"
     },
     {
       "id": "rss-20260610-005",
-      "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
       "source": "rss",
-      "source_url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
-      "score": 6,
+      "source_url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "score": 8,
       "tags": [
-        "supply-chain-attack",
-        "credential-theft",
-        "ai-developers",
-        "open-source-security"
+        "agent-chaining",
+        "huggingface-spaces",
+        "3d-gallery",
+        "low-code"
       ],
       "status": "published",
       "file": "rss-20260610-005.json"
     },
     {
       "id": "rss-20260610-006",
-      "title": "Apple reveals new AI architecture built around Google Gemini models",
+      "title": "Give your agent its own computer",
       "source": "rss",
-      "source_url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+      "source_url": "https://www.langchain.com/blog/give-your-ai-agent-its-own-computer",
       "score": 7,
       "tags": [
-        "apple",
-        "google-gemini",
-        "ai-architecture",
-        "on-device-ai"
+        "agent-sandbox",
+        "langchain",
+        "code-execution",
+        "ai-safety"
       ],
       "status": "published",
       "file": "rss-20260610-006.json"
     },
     {
       "id": "rss-20260610-007",
-      "title": "Apple Core AI Framework",
+      "title": "The latest AI news we announced in May 2026",
       "source": "rss",
-      "source_url": "https://developer.apple.com/documentation/coreai/",
-      "score": 8,
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+      "score": 5,
       "tags": [
-        "apple",
-        "core-ai",
-        "on-device-ml",
-        "inference-framework"
+        "ai-news",
+        "google-ai",
+        "monthly-summary"
       ],
-      "status": "published",
+      "status": "archived",
       "file": "rss-20260610-007.json"
     },
     {
       "id": "rss-20260610-008",
-      "title": "Ask HN: What are tools you have made for yourself since the advent of AI?",
+      "title": "5 ways Google Search can level up your thrift and vintage shopping",
       "source": "rss",
-      "source_url": "https://news.ycombinator.com/item?id=48449187",
+      "source_url": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
       "score": 3,
       "tags": [
-        "hacker-news",
-        "ai-tools",
-        "community-showcase",
-        "personal-projects"
+        "google-search",
+        "ai-shopping",
+        "thrifting",
+        "visual-matching"
       ],
       "status": "archived",
       "file": "rss-20260610-008.json"

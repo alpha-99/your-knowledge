@@ -1,27 +1,26 @@
 {
   "id": "rss-20260610-007",
-  "title": "Apple Core AI Framework",
+  "title": "The latest AI news we announced in May 2026",
   "source": "rss",
-  "source_name": "Hacker News Best",
-  "source_url": "https://developer.apple.com/documentation/coreai/",
-  "category": "综合技术",
+  "source_name": "Google AI Blog",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+  "category": "行业动态",
   "author": "",
-  "published_at": "Mon, 08 Jun 2026 18:47:38 +0000",
-  "collected_at": "2026-06-10T03:33:39Z",
-  "summary": "Apple 官方 Core AI 框架，提供设备端机器学习推理与训练能力，深度集成硬件加速，实现隐私保护与低延迟。",
-  "score": 8,
+  "published_at": "Fri, 05 Jun 2026 14:45:00 +0000",
+  "collected_at": "2026-06-10T11:42:56Z",
+  "summary": "谷歌2026年5月AI新闻汇总，概述月度多项AI产品更新，缺乏具体技术实施细节。",
+  "score": 5,
   "tags": [
-    "apple",
-    "core-ai",
-    "on-device-ml",
-    "inference-framework"
+    "ai-news",
+    "google-ai",
+    "monthly-summary"
   ],
   "audience": "intermediate",
   "highlights": [
-    "原生利用 Apple Silicon 神经引擎实现高效模型推理与微调",
-    "与 Core ML 无缝互操作，支持模型转换与自定义算子",
-    "提供异步推理管道，最小化主线程阻塞，优化能效比"
+    "覆盖了Gemini、搜索、Android等多个AI产品线的版本更新",
+    "以新闻列表形式提供导航，便于快速了解AI生态动向",
+    "适合追踪Google AI月度迭代节奏，但未深入模型架构或训练细节"
   ],
-  "status": "published",
-  "updated_at": "2026-06-10T03:39:04Z"
+  "status": "archived",
+  "updated_at": "2026-06-10T11:47:21Z"
 }

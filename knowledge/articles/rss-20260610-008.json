@@ -1,27 +1,27 @@
 {
   "id": "rss-20260610-008",
-  "title": "Ask HN: What are tools you have made for yourself since the advent of AI?",
+  "title": "5 ways Google Search can level up your thrift and vintage shopping",
   "source": "rss",
-  "source_name": "Hacker News Best",
-  "source_url": "https://news.ycombinator.com/item?id=48449187",
-  "category": "综合技术",
+  "source_name": "Google AI Blog",
+  "source_url": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+  "category": "行业动态",
   "author": "",
-  "published_at": "Mon, 08 Jun 2026 18:22:39 +0000",
-  "collected_at": "2026-06-10T03:33:39Z",
-  "summary": "HN讨论AI出现后个人自制的工具，汇集707条评论，展现开发者运用AI解决日常问题的实践多样性。",
+  "published_at": "Wed, 03 Jun 2026 13:00:00 +0000",
+  "collected_at": "2026-06-10T11:42:56Z",
+  "summary": "利用 Google 搜索和购物中的 AI 工具挖掘二手好物，集成视觉匹配、价格对比等实用功能。",
   "score": 3,
   "tags": [
-    "hacker-news",
-    "ai-tools",
-    "community-showcase",
-    "personal-projects"
+    "google-search",
+    "ai-shopping",
+    "thrifting",
+    "visual-matching"
   ],
-  "audience": "intermediate",
+  "audience": "beginner",
   "highlights": [
-    "帖子包含413点赞同和707条评论，反映个人AI工具在开发者社区中的高关注度",
-    "内容覆盖代码辅助、内容生成、自动化工作流等多类个人工具场景",
-    "通过众包形式收集了真实世界的AI应用案例，没有商业滤镜"
+    "Google Lens 视觉匹配支持拍照搜同款",
+    "Shopping 标签页聚合全网二手商品价格",
+    "AI 驱动的个性化推荐和产品摘要"
   ],
   "status": "archived",
-  "updated_at": "2026-06-10T03:39:04Z"
+  "updated_at": "2026-06-10T11:47:21Z"
 }

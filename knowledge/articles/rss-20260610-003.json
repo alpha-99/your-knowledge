@@ -1,27 +1,27 @@
 {
   "id": "rss-20260610-003",
-  "title": "Claude Fable 5",
+  "title": "Business World Model",
   "source": "rss",
-  "source_name": "Hacker News Best",
-  "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-  "category": "综合技术",
+  "source_name": "arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2606.10044",
+  "category": "AI研究",
   "author": "",
-  "published_at": "Tue, 09 Jun 2026 16:58:01 +0000",
-  "collected_at": "2026-06-10T03:33:39Z",
-  "summary": "Anthropic 发布 Claude Fable 5，附详细系统安全卡，聚焦负责任 AI 与透明度。",
-  "score": 8,
+  "published_at": "Wed, 10 Jun 2026 00:00:00 -0400",
+  "collected_at": "2026-06-10T11:42:51Z",
+  "summary": "提出商业世界模型(BWM)架构，融合语义数据、概率ML与业务规则，支持自主规划与反事实推理。",
+  "score": 7,
   "tags": [
-    "claude",
-    "system-card",
-    "safety",
-    "responsible-ai"
+    "business-world-model",
+    "autonomous-systems",
+    "planning",
+    "simulation"
   ],
   "audience": "intermediate",
   "highlights": [
-    "发布系统安全卡，公开模型风险评估与缓解措施",
-    "HN 社区高度关注，1869 分与 1469 条评论反映行业热度",
-    "结合故事生成能力，可能展示创意与安全对齐的平衡"
+    "以商业语义为中心，将状态、动态和行动链接至关键业务实体",
+    "集成语义数据、概率ML、确定性规则与行动空间的混合架构",
+    "支持反事实推理与不确定性下的行动序列评估"
   ],
   "status": "published",
-  "updated_at": "2026-06-10T03:39:04Z"
+  "updated_at": "2026-06-10T11:47:21Z"
 }

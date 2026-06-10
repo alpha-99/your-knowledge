@@ -1,27 +1,27 @@
 {
   "id": "rss-20260610-004",
-  "title": "Cleaning up after AI rockstar developers",
+  "title": "From data to decisions: how LSEG is scaling trusted AI",
   "source": "rss",
-  "source_name": "Hacker News Best",
-  "source_url": "https://www.codingwithjesse.com/blog/rockstar-developers/",
-  "category": "综合技术",
+  "source_name": "OpenAI Blog",
+  "source_url": "https://openai.com/index/lseg",
+  "category": "公司博客",
   "author": "",
-  "published_at": "Tue, 09 Jun 2026 09:10:10 +0000",
-  "collected_at": "2026-06-10T03:33:39Z",
-  "summary": "探讨AI辅助开发后的代码清理难题，强调管理AI生成技术债务的策略与维护实践，避免开发速度牺牲代码长期健康。",
-  "score": 7,
+  "published_at": "Wed, 10 Jun 2026 00:00:00 GMT",
+  "collected_at": "2026-06-10T11:42:53Z",
+  "summary": "LSEG与OpenAI合作,将可信AI规模化用于全球业务,加速洞察与产品迭代,赋能4000名员工。",
+  "score": 8,
   "tags": [
-    "ai-code-generation",
-    "technical-debt",
-    "code-quality",
-    "developer-workflow"
+    "enterprise-ai",
+    "trusted-ai",
+    "financial-services",
+    "llm-deployment"
   ],
   "audience": "intermediate",
   "highlights": [
-    "识别AI生成代码中的典型反模式（如异常处理缺失、过度设计），提供具体清理检查清单",
-    "引入自动化重构与人工审查结合的流程，量化减少技术债务的累积速度",
-    "重新定义开发者角色为代码质量守护者，通过持续集成监控AI生成代码的稳定性与可维护性"
+    "赋能全球4000名员工,将AI集成到日常决策与工作流",
+    "显著缩短产品发布周期,加速金融数据洞察生成",
+    "构建可信AI实践框架,确保金融级安全与合规扩展"
   ],
   "status": "published",
-  "updated_at": "2026-06-10T03:39:04Z"
+  "updated_at": "2026-06-10T11:47:21Z"
 }
