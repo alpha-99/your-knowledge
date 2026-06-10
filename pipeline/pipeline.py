@@ -346,13 +346,15 @@ def _collect(
     remaining = limit - len(raw_items)
     if "rss" in sources and remaining > 0:
         rss_sources = _load_rss_sources()
+        per_rss = max(1, remaining // len(rss_sources)) if rss_sources else remaining
         for src in rss_sources:
             if remaining <= 0:
                 break
             feed_url = src["url"]
             source_name = src.get("name", "")
             category = src.get("category", "")
-            rss_items = _fetch_rss(client, feed_url, max_items=remaining)
+            take = min(per_rss, remaining)
+            rss_items = _fetch_rss(client, feed_url, max_items=take)
             for it in rss_items:
                 raw_items.append(
                     {
@@ -372,6 +374,7 @@ def _collect(
                     }
                 )
             remaining = limit - len(raw_items)
+            per_rss = max(1, remaining // max(1, len(rss_sources) - rss_sources.index(src) - 1))
 
     date_str = datetime.now().strftime("%Y%m%d")
     github_count = 0
