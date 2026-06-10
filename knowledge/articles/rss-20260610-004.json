@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260610-004",
+  "title": "Cleaning up after AI rockstar developers",
+  "source": "rss",
+  "source_name": "Hacker News Best",
+  "source_url": "https://www.codingwithjesse.com/blog/rockstar-developers/",
+  "category": "综合技术",
+  "author": "",
+  "published_at": "Tue, 09 Jun 2026 09:10:10 +0000",
+  "collected_at": "2026-06-10T03:33:39Z",
+  "summary": "探讨AI辅助开发后的代码清理难题，强调管理AI生成技术债务的策略与维护实践，避免开发速度牺牲代码长期健康。",
+  "score": 7,
+  "tags": [
+    "ai-code-generation",
+    "technical-debt",
+    "code-quality",
+    "developer-workflow"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "识别AI生成代码中的典型反模式（如异常处理缺失、过度设计），提供具体清理检查清单",
+    "引入自动化重构与人工审查结合的流程，量化减少技术债务的累积速度",
+    "重新定义开发者角色为代码质量守护者，通过持续集成监控AI生成代码的稳定性与可维护性"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-10T03:39:04Z"
+}

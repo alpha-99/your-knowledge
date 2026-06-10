@@ -1,0 +1,27 @@
+{
+  "id": "github-20260610-008",
+  "title": "cellebrite-labs/ghidra-rpc",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/cellebrite-labs/ghidra-rpc",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-10T03:33:37Z",
+  "summary": "为Ghidra提供RPC远程接口，支持Agent自动化逆向工程，便于AI代理直接操控分析。",
+  "score": 8,
+  "tags": [
+    "ghidra-rpc",
+    "agentic-reverse-engineering",
+    "remote-procedure-call",
+    "automated-analysis"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "基于RPC实现Ghidra功能远程调用，解除本地限制，支持多语言客户端集成。",
+    "原生适配智能代理范式，提供结构化逆向任务接口，简化LLM与逆向工具链对接。",
+    "低延迟双向通信设计，支持批量符号查询、函数分析等高频操作，提升自动化效率。"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-10T03:39:04Z"
+}

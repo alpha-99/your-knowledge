@@ -1,0 +1,27 @@
+{
+  "id": "github-20260610-002",
+  "title": "GordenSun/GordenSuperPPTSkills",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/GordenSun/GordenSuperPPTSkills",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-10T03:33:37Z",
+  "summary": "利用GPT生成图片版PPT，再转换为可编辑PPTX，实现从文本到精美幻灯片的自动化生成。",
+  "score": 7,
+  "tags": [
+    "ppt-generation",
+    "gpt",
+    "image-to-pptx",
+    "llm-application"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "通过自然语言直接生成整套幻灯片的高保真图片设计",
+    "将图片PPT逆向工程为完全可编辑PPTX，保留文本和图形布局",
+    "自动集成GPT的多模态生成能力，实现端到端幻灯片工厂化生产"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-10T03:39:04Z"
+}

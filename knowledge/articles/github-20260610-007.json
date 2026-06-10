@@ -1,0 +1,27 @@
+{
+  "id": "github-20260610-007",
+  "title": "CWS6206/ai-coding-starter-kit",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/CWS6206/ai-coding-starter-kit",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-10T03:33:37Z",
+  "summary": "面向瑞士开发团队的AI编码入门资源包，整合代理技能、清单与模板，提炼自博客实践，注重本地化实用。",
+  "score": 7,
+  "tags": [
+    "ai-coding",
+    "agent-skills",
+    "curated-resources",
+    "swiss-localization"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "提供可直接应用的AI编码代理技能清单，加速团队上手",
+    "包含瑞士本地化团队适用的项目模板和检查清单",
+    "内容源自作者博客实战经验提炼，兼具实践性与地区针对性"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-10T03:39:04Z"
+}

@@ -1,0 +1,305 @@
+{
+  "updated_at": "2026-06-10T03:39:04Z",
+  "total": 20,
+  "articles": [
+    {
+      "id": "github-20260610-001",
+      "title": "JimLiu/baoyu-design",
+      "source": "github",
+      "source_url": "https://github.com/JimLiu/baoyu-design",
+      "score": 8,
+      "tags": [
+        "claude-design",
+        "agent-skill",
+        "html-mockup",
+        "local-design"
+      ],
+      "status": "published",
+      "file": "github-20260610-001.json"
+    },
+    {
+      "id": "github-20260610-002",
+      "title": "GordenSun/GordenSuperPPTSkills",
+      "source": "github",
+      "source_url": "https://github.com/GordenSun/GordenSuperPPTSkills",
+      "score": 7,
+      "tags": [
+        "ppt-generation",
+        "gpt",
+        "image-to-pptx",
+        "llm-application"
+      ],
+      "status": "published",
+      "file": "github-20260610-002.json"
+    },
+    {
+      "id": "github-20260610-003",
+      "title": "amElnagdy/guard-skills",
+      "source": "github",
+      "source_url": "https://github.com/amElnagdy/guard-skills",
+      "score": 7,
+      "tags": [
+        "guard-rails",
+        "ai-generated-code",
+        "quality-gates",
+        "coding-agents"
+      ],
+      "status": "published",
+      "file": "github-20260610-003.json"
+    },
+    {
+      "id": "github-20260610-004",
+      "title": "apple/coreai-models",
+      "source": "github",
+      "source_url": "https://github.com/apple/coreai-models",
+      "score": 8,
+      "tags": [
+        "apple",
+        "core-ml",
+        "on-device-ai",
+        "model-export"
+      ],
+      "status": "published",
+      "file": "github-20260610-004.json"
+    },
+    {
+      "id": "github-20260610-005",
+      "title": "xiaohuailabs/xiaohu-video-translate",
+      "source": "github",
+      "source_url": "https://github.com/xiaohuailabs/xiaohu-video-translate",
+      "score": 7,
+      "tags": [
+        "video-processing",
+        "speech-to-text",
+        "local-model",
+        "subtitle-generation"
+      ],
+      "status": "published",
+      "file": "github-20260610-005.json"
+    },
+    {
+      "id": "github-20260610-006",
+      "title": "FerroxLabs/wayland",
+      "source": "github",
+      "source_url": "https://github.com/FerroxLabs/wayland",
+      "score": 7,
+      "tags": [
+        "autonomous-agent",
+        "perception-reasoning-action",
+        "self-evolution",
+        "ai-framework"
+      ],
+      "status": "published",
+      "file": "github-20260610-006.json"
+    },
+    {
+      "id": "github-20260610-007",
+      "title": "CWS6206/ai-coding-starter-kit",
+      "source": "github",
+      "source_url": "https://github.com/CWS6206/ai-coding-starter-kit",
+      "score": 7,
+      "tags": [
+        "ai-coding",
+        "agent-skills",
+        "curated-resources",
+        "swiss-localization"
+      ],
+      "status": "published",
+      "file": "github-20260610-007.json"
+    },
+    {
+      "id": "github-20260610-008",
+      "title": "cellebrite-labs/ghidra-rpc",
+      "source": "github",
+      "source_url": "https://github.com/cellebrite-labs/ghidra-rpc",
+      "score": 8,
+      "tags": [
+        "ghidra-rpc",
+        "agentic-reverse-engineering",
+        "remote-procedure-call",
+        "automated-analysis"
+      ],
+      "status": "published",
+      "file": "github-20260610-008.json"
+    },
+    {
+      "id": "github-20260610-009",
+      "title": "adamallcock/codex-chatgpt-control",
+      "source": "github",
+      "source_url": "https://github.com/adamallcock/codex-chatgpt-control",
+      "score": 7,
+      "tags": [
+        "codex-agent",
+        "chatgpt",
+        "browser-automation",
+        "unofficial-sdk"
+      ],
+      "status": "published",
+      "file": "github-20260610-009.json"
+    },
+    {
+      "id": "github-20260610-010",
+      "title": "TwoSevenOneT/EDRChoker",
+      "source": "github",
+      "source_url": "https://github.com/TwoSevenOneT/EDRChoker",
+      "score": 8,
+      "tags": [
+        "edr-evasion",
+        "qos-throttling",
+        "windows-security",
+        "pacer-sys"
+      ],
+      "status": "published",
+      "file": "github-20260610-010.json"
+    },
+    {
+      "id": "rss-20260610-001",
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "source": "rss",
+      "source_url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "score": 7,
+      "tags": [
+        "ai-safety",
+        "llm-behavior",
+        "system-prompt",
+        "adversarial-attack"
+      ],
+      "status": "published",
+      "file": "rss-20260610-001.json"
+    },
+    {
+      "id": "rss-20260610-002",
+      "title": "CEOs who think AI replaces their employees are just bad CEOs",
+      "source": "rss",
+      "source_url": "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/",
+      "score": 6,
+      "tags": [
+        "ai-strategy",
+        "human-ai-collaboration",
+        "organizational-change",
+        "leadership"
+      ],
+      "status": "published",
+      "file": "rss-20260610-002.json"
+    },
+    {
+      "id": "rss-20260610-003",
+      "title": "Claude Fable 5",
+      "source": "rss",
+      "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "score": 8,
+      "tags": [
+        "claude",
+        "system-card",
+        "safety",
+        "responsible-ai"
+      ],
+      "status": "published",
+      "file": "rss-20260610-003.json"
+    },
+    {
+      "id": "rss-20260610-004",
+      "title": "Cleaning up after AI rockstar developers",
+      "source": "rss",
+      "source_url": "https://www.codingwithjesse.com/blog/rockstar-developers/",
+      "score": 7,
+      "tags": [
+        "ai-code-generation",
+        "technical-debt",
+        "code-quality",
+        "developer-workflow"
+      ],
+      "status": "published",
+      "file": "rss-20260610-004.json"
+    },
+    {
+      "id": "rss-20260610-005",
+      "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
+      "source": "rss",
+      "source_url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
+      "score": 6,
+      "tags": [
+        "supply-chain-attack",
+        "credential-theft",
+        "ai-developers",
+        "open-source-security"
+      ],
+      "status": "published",
+      "file": "rss-20260610-005.json"
+    },
+    {
+      "id": "rss-20260610-006",
+      "title": "Apple reveals new AI architecture built around Google Gemini models",
+      "source": "rss",
+      "source_url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+      "score": 7,
+      "tags": [
+        "apple",
+        "google-gemini",
+        "ai-architecture",
+        "on-device-ai"
+      ],
+      "status": "published",
+      "file": "rss-20260610-006.json"
+    },
+    {
+      "id": "rss-20260610-007",
+      "title": "Apple Core AI Framework",
+      "source": "rss",
+      "source_url": "https://developer.apple.com/documentation/coreai/",
+      "score": 8,
+      "tags": [
+        "apple",
+        "core-ai",
+        "on-device-ml",
+        "inference-framework"
+      ],
+      "status": "published",
+      "file": "rss-20260610-007.json"
+    },
+    {
+      "id": "rss-20260610-008",
+      "title": "Ask HN: What are tools you have made for yourself since the advent of AI?",
+      "source": "rss",
+      "source_url": "https://news.ycombinator.com/item?id=48449187",
+      "score": 3,
+      "tags": [
+        "hacker-news",
+        "ai-tools",
+        "community-showcase",
+        "personal-projects"
+      ],
+      "status": "archived",
+      "file": "rss-20260610-008.json"
+    },
+    {
+      "id": "rss-20260610-009",
+      "title": "Siri AI",
+      "source": "rss",
+      "source_url": "https://www.apple.com/apple-intelligence/",
+      "score": 8,
+      "tags": [
+        "apple-intelligence",
+        "siri-ai",
+        "on-device-llm",
+        "privacy-ai"
+      ],
+      "status": "published",
+      "file": "rss-20260610-009.json"
+    },
+    {
+      "id": "rss-20260610-010",
+      "title": "AI is slowing down",
+      "source": "rss",
+      "source_url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+      "score": 7,
+      "tags": [
+        "ai-trends",
+        "scaling-law",
+        "llm-efficiency"
+      ],
+      "status": "published",
+      "file": "rss-20260610-010.json"
+    }
+  ]
+}

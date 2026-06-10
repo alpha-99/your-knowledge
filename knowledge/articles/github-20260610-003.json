@@ -1,0 +1,27 @@
+{
+  "id": "github-20260610-003",
+  "title": "amElnagdy/guard-skills",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/amElnagdy/guard-skills",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-10T03:33:37Z",
+  "summary": "为编码代理设计的质量门控技能，检测AI生成的代码、测试与文档中的典型失败模式，提升AI输出可靠性。",
+  "score": 7,
+  "tags": [
+    "guard-rails",
+    "ai-generated-code",
+    "quality-gates",
+    "coding-agents"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "针对AI生成代码、测试和文档的专用失败模式检测",
+    "可集成到CI/CD流程中作为自动化质量关卡",
+    "覆盖代码风格、逻辑错误、测试完备性等多维度检查"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-10T03:39:04Z"
+}

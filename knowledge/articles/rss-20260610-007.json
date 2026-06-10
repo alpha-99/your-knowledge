@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260610-007",
+  "title": "Apple Core AI Framework",
+  "source": "rss",
+  "source_name": "Hacker News Best",
+  "source_url": "https://developer.apple.com/documentation/coreai/",
+  "category": "综合技术",
+  "author": "",
+  "published_at": "Mon, 08 Jun 2026 18:47:38 +0000",
+  "collected_at": "2026-06-10T03:33:39Z",
+  "summary": "Apple 官方 Core AI 框架，提供设备端机器学习推理与训练能力，深度集成硬件加速，实现隐私保护与低延迟。",
+  "score": 8,
+  "tags": [
+    "apple",
+    "core-ai",
+    "on-device-ml",
+    "inference-framework"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "原生利用 Apple Silicon 神经引擎实现高效模型推理与微调",
+    "与 Core ML 无缝互操作，支持模型转换与自定义算子",
+    "提供异步推理管道，最小化主线程阻塞，优化能效比"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-10T03:39:04Z"
+}

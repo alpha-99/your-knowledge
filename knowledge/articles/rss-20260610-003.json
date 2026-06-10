@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260610-003",
+  "title": "Claude Fable 5",
+  "source": "rss",
+  "source_name": "Hacker News Best",
+  "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+  "category": "综合技术",
+  "author": "",
+  "published_at": "Tue, 09 Jun 2026 16:58:01 +0000",
+  "collected_at": "2026-06-10T03:33:39Z",
+  "summary": "Anthropic 发布 Claude Fable 5，附详细系统安全卡，聚焦负责任 AI 与透明度。",
+  "score": 8,
+  "tags": [
+    "claude",
+    "system-card",
+    "safety",
+    "responsible-ai"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "发布系统安全卡，公开模型风险评估与缓解措施",
+    "HN 社区高度关注，1869 分与 1469 条评论反映行业热度",
+    "结合故事生成能力，可能展示创意与安全对齐的平衡"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-10T03:39:04Z"
+}

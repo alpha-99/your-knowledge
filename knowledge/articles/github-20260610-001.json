@@ -1,0 +1,27 @@
+{
+  "id": "github-20260610-001",
+  "title": "JimLiu/baoyu-design",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/JimLiu/baoyu-design",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-10T03:33:37Z",
+  "summary": "将Claude Design功能本地化为Agent技能，在Cursor等工具中生成自包含HTML的UI设计原型。",
+  "score": 8,
+  "tags": [
+    "claude-design",
+    "agent-skill",
+    "html-mockup",
+    "local-design"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "封装Claude Design为本地Agent技能，支持离线生成自包含HTML文件",
+    "无缝集成Cursor、Claude Code等开发环境，实现即时UI原型输出",
+    "推荐搭配Opus 4.8模型，获得高质量设计稿生成效果"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-10T03:39:04Z"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "github-20260610-010",
+  "title": "TwoSevenOneT/EDRChoker",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/TwoSevenOneT/EDRChoker",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-10T03:33:37Z",
+  "summary": "用Windows QoS策略(Pacer.sys)限制EDR连接服务器以规避检测，无驱动需求。",
+  "score": 8,
+  "tags": [
+    "edr-evasion",
+    "qos-throttling",
+    "windows-security",
+    "pacer-sys"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "基于系统自带pacer.sys驱动与QoS API实现带宽限制，无需加载第三方驱动，回避签名问题。",
+    "精准限制EDR代理出站流量，可能导致遥测数据上传失败或延迟，从而避开实时监控。",
+    "利用合法系统功能，操作隐蔽，不易被EDR自身行为检测发现。"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-10T03:39:04Z"
+}

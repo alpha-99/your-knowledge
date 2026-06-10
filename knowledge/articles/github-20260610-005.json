@@ -1,0 +1,27 @@
+{
+  "id": "github-20260610-005",
+  "title": "xiaohuailabs/xiaohu-video-translate",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/xiaohuailabs/xiaohu-video-translate",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-10T03:33:37Z",
+  "summary": "本地化AI视频翻译工具，一句话命令实现下载、转写、翻译、字幕烧录全流程，全程免API费用。",
+  "score": 7,
+  "tags": [
+    "video-processing",
+    "speech-to-text",
+    "local-model",
+    "subtitle-generation"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "全流程本地化：利用Whisper等本地语音模型完成转写，零API调用成本",
+    "端到端自动化：输入视频链接或文件，自动执行下载、语音识别、翻译、字幕渲染",
+    "AI翻译润色：集成大语言模型对字幕进行翻译和自然语言润色，提升阅读体验"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-10T03:39:04Z"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260610-005",
+  "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
+  "source": "rss",
+  "source_name": "Hacker News Best",
+  "source_url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
+  "category": "综合技术",
+  "author": "",
+  "published_at": "Tue, 09 Jun 2026 07:33:16 +0000",
+  "collected_at": "2026-06-10T03:33:39Z",
+  "summary": "微软开源工具遭供应链攻击，恶意代码窃取AI开发者密码，突显开发工具链安全风险。",
+  "score": 6,
+  "tags": [
+    "supply-chain-attack",
+    "credential-theft",
+    "ai-developers",
+    "open-source-security"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "恶意VS Code扩展通过官方市场分发，实现自动化供应链攻击",
+    "窃取目标包括GitHub令牌、云服务密钥及AI平台API密钥",
+    "微软已紧急下架恶意插件，并发布安全公告与修复方案"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-10T03:39:04Z"
+}

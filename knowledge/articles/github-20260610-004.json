@@ -1,0 +1,27 @@
+{
+  "id": "github-20260610-004",
+  "title": "apple/coreai-models",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/apple/coreai-models",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-10T03:33:37Z",
+  "summary": "Apple 官方设备端 AI 工具集，提供模型导出配方、Python 原语和 Swift 运行时，简化 Core ML 部署与优化。",
+  "score": 8,
+  "tags": [
+    "apple",
+    "core-ml",
+    "on-device-ai",
+    "model-export"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "提供针对 Apple 芯片优化的 model export recipes，覆盖主流架构（如 Stable Diffusion、LLM）",
+    "Python primitives 支持自动量化与编译，将 PyTorch/TensorFlow 模型转为 Core ML 格式",
+    "Swift runtime utilities 可直接集成至 iOS/macOS 应用，实现低延迟设备端推理"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-10T03:39:04Z"
+}

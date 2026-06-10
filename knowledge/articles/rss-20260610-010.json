@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260610-010",
+  "title": "AI is slowing down",
+  "source": "rss",
+  "source_name": "Hacker News Best",
+  "source_url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+  "category": "综合技术",
+  "author": "",
+  "published_at": "Mon, 08 Jun 2026 15:46:37 +0000",
+  "collected_at": "2026-06-10T03:33:39Z",
+  "summary": "文章指出大模型性能提升边际效益递减，Scaling Law遇瓶颈，产业正转向效率优化与垂直整合。",
+  "score": 7,
+  "tags": [
+    "ai-trends",
+    "scaling-law",
+    "llm-efficiency"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "揭示预训练规模扩展的收益递减现象，引用多个前沿模型迭代成果对比",
+    "分析推理成本与延迟的改善成为当前竞争焦点，而非单纯参数量级提升",
+    "讨论行业从追求模型能力转向系统效率、工具链和产业落地整合"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-10T03:39:04Z"
+}
