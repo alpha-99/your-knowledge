@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260611-001",
+  "title": "To Gen or Not To Gen: The Ethical Use of Generative AI",
+  "source": "rss",
+  "source_name": "Lobsters AI/ML",
+  "source_url": "https://blog.johanneslink.net/2025/11/04/to-gen-or-not-to-gen/",
+  "category": "综合技术",
+  "author": "",
+  "published_at": "Thu, 11 Jun 2026 01:23:56 -0500",
+  "collected_at": "2026-06-11T12:14:02Z",
+  "summary": "探讨生成式AI的伦理使用边界，提出何时应使用或避免的决策框架，强调负责任的应用原则，兼具技术反思与实践指导。",
+  "score": 7,
+  "tags": [
+    "generative-ai",
+    "ethics",
+    "responsible-ai",
+    "decision-framework"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "提出基于场景的生成式AI使用决策树，帮助开发者判断是否适合引入生成模型",
+    "结合具体案例，分析幻觉风险、版权及偏见问题的伦理权衡方法",
+    "给出最小可行伦理检查清单，覆盖数据来源、透明度与人工审核等关键控制点"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-11T12:28:21Z"
+}

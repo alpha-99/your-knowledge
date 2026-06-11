@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-10T11:47:21Z",
-  "total": 20,
+  "updated_at": "2026-06-11T12:28:21Z",
+  "total": 26,
   "articles": [
     {
       "id": "github-20260610-001",
@@ -153,6 +153,36 @@
       "file": "github-20260610-010.json"
     },
     {
+      "id": "github-20260611-009",
+      "title": "valkor-ai/loom",
+      "source": "github",
+      "source_url": "https://github.com/valkor-ai/loom",
+      "score": 8,
+      "tags": [
+        "coding-agents",
+        "delivery-harness",
+        "repeatable-delivery",
+        "multi-agent"
+      ],
+      "status": "published",
+      "file": "github-20260611-009.json"
+    },
+    {
+      "id": "github-20260611-010",
+      "title": "XBuilderLAB/cheat-on-money",
+      "source": "github",
+      "source_url": "https://github.com/XBuilderLAB/cheat-on-money",
+      "score": 8,
+      "tags": [
+        "part-time-job",
+        "anti-fraud",
+        "ai-agent",
+        "skill-framework"
+      ],
+      "status": "published",
+      "file": "github-20260611-010.json"
+    },
+    {
       "id": "rss-20260610-001",
       "title": "German ruling declares Google liable for false answers in AI Overviews",
       "source": "rss",
@@ -299,6 +329,66 @@
       ],
       "status": "published",
       "file": "rss-20260610-010.json"
+    },
+    {
+      "id": "rss-20260611-001",
+      "title": "To Gen or Not To Gen: The Ethical Use of Generative AI",
+      "source": "rss",
+      "source_url": "https://blog.johanneslink.net/2025/11/04/to-gen-or-not-to-gen/",
+      "score": 7,
+      "tags": [
+        "generative-ai",
+        "ethics",
+        "responsible-ai",
+        "decision-framework"
+      ],
+      "status": "published",
+      "file": "rss-20260611-001.json"
+    },
+    {
+      "id": "rss-20260611-002",
+      "title": "From Explicit Elements to Implicit Intent: A Predefined Library for Auditable Behavioral Inference",
+      "source": "rss",
+      "source_url": "https://arxiv.org/abs/2606.11207",
+      "score": 8,
+      "tags": [
+        "e-commerce",
+        "behavioral-inference",
+        "auditable-ai",
+        "inference-engine"
+      ],
+      "status": "published",
+      "file": "rss-20260611-002.json"
+    },
+    {
+      "id": "rss-20260611-003",
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "source": "rss",
+      "source_url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "score": 7,
+      "tags": [
+        "provenance-standards",
+        "ai-transparency",
+        "eu-compliance",
+        "content-authenticity"
+      ],
+      "status": "published",
+      "file": "rss-20260611-003.json"
+    },
+    {
+      "id": "rss-20260611-005",
+      "title": "Full Text Search in SmithDB: Designing an Inverted Index for Object Storage",
+      "source": "rss",
+      "source_url": "https://www.langchain.com/blog/full-text-search-in-smithdb-designing-an-inverted-index-for-object-storage",
+      "score": 8,
+      "tags": [
+        "full-text-search",
+        "inverted-index",
+        "object-storage",
+        "agent-traces"
+      ],
+      "status": "published",
+      "file": "rss-20260611-005.json"
     }
   ]
 }
