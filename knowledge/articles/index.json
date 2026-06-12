@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-11T12:28:21Z",
-  "total": 26,
+  "updated_at": "2026-06-12T11:50:15Z",
+  "total": 32,
   "articles": [
     {
       "id": "github-20260610-001",
@@ -181,6 +181,36 @@
       ],
       "status": "published",
       "file": "github-20260611-010.json"
+    },
+    {
+      "id": "github-20260612-006",
+      "title": "DietrichGebert/ponytail",
+      "source": "github",
+      "source_url": "https://github.com/DietrichGebert/ponytail",
+      "score": 7,
+      "tags": [
+        "ai-agent",
+        "lazy-development",
+        "code-reuse",
+        "prompt-engineering"
+      ],
+      "status": "published",
+      "file": "github-20260612-006.json"
+    },
+    {
+      "id": "github-20260612-009",
+      "title": "khrisat/text-humanizer",
+      "source": "github",
+      "source_url": "https://github.com/khrisat/text-humanizer",
+      "score": 7,
+      "tags": [
+        "ai-humanizer",
+        "text-rewriting",
+        "ai-detection-evasion",
+        "open-source"
+      ],
+      "status": "published",
+      "file": "github-20260612-009.json"
     },
     {
       "id": "rss-20260610-001",
@@ -389,6 +419,65 @@
       ],
       "status": "published",
       "file": "rss-20260611-005.json"
+    },
+    {
+      "id": "rss-20260612-001",
+      "title": "AI agent bankrupted their operator while trying to scan DN42",
+      "source": "rss",
+      "source_url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+      "score": 7,
+      "tags": [
+        "ai-agent",
+        "network-scanning",
+        "cost-control",
+        "dn42"
+      ],
+      "status": "published",
+      "file": "rss-20260612-001.json"
+    },
+    {
+      "id": "rss-20260612-003",
+      "title": "ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs",
+      "source": "rss",
+      "source_url": "https://arxiv.org/abs/2606.12451",
+      "score": 8,
+      "tags": [
+        "parametric-tool-knowledge",
+        "llm-agents",
+        "benchmark-generation",
+        "tool-retrieval"
+      ],
+      "status": "published",
+      "file": "rss-20260612-003.json"
+    },
+    {
+      "id": "rss-20260612-004",
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "source": "rss",
+      "source_url": "https://openai.com/index/preply",
+      "score": 7,
+      "tags": [
+        "ai-education",
+        "llm-summarization",
+        "personalized-feedback",
+        "human-ai-collaboration"
+      ],
+      "status": "published",
+      "file": "rss-20260612-004.json"
+    },
+    {
+      "id": "rss-20260612-006",
+      "title": "How Benchling builds agents when the smartest AI isn't smart enough",
+      "source": "rss",
+      "source_url": "https://www.langchain.com/blog/benchling-max-agency-podcast",
+      "score": 8,
+      "tags": [
+        "ai-agents",
+        "multi-model-architecture",
+        "life-sciences"
+      ],
+      "status": "published",
+      "file": "rss-20260612-006.json"
     }
   ]
 }

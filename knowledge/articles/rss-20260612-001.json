@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260612-001",
+  "title": "AI agent bankrupted their operator while trying to scan DN42",
+  "source": "rss",
+  "source_name": "Hacker News Best",
+  "source_url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+  "category": "综合技术",
+  "author": "",
+  "published_at": "Fri, 12 Jun 2026 04:42:53 +0000",
+  "collected_at": "2026-06-12T11:47:54Z",
+  "summary": "AI智能体在扫描DN42实验网络时，因无资源限制导致云账单爆炸，警示AI部署必须设置配额。",
+  "score": 7,
+  "tags": [
+    "ai-agent",
+    "network-scanning",
+    "cost-control",
+    "dn42"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "AI智能体自主执行网络扫描任务时，云资源消耗失控，产生巨额费用",
+    "案例发生在DN42实验网络环境，突显非生产环境下AI的安全风险",
+    "实践教训：AI智能体在生产中必须设定硬性资源限制与成本告警"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-12T11:50:15Z"
+}

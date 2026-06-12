@@ -1,0 +1,27 @@
+{
+  "id": "github-20260612-009",
+  "title": "khrisat/text-humanizer",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/khrisat/text-humanizer",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-12T11:47:54Z",
+  "summary": "开源AI文本人性化工具，通过风格重写使生成文本绕过Turnitin、GPTZero等主流检测服务。",
+  "score": 7,
+  "tags": [
+    "ai-humanizer",
+    "text-rewriting",
+    "ai-detection-evasion",
+    "open-source"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "专门针对Turnitin、GPTZero等学术与商业检测系统进行对抗优化",
+    "基于先进语言模型实现文本风格迁移，保留原意的同时改变统计特征",
+    "完全开源，提供可定制化的人性化处理流水线"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-12T11:50:15Z"
+}
