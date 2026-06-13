@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-12T11:50:15Z",
-  "total": 32,
+  "updated_at": "2026-06-13T10:36:41Z",
+  "total": 38,
   "articles": [
     {
       "id": "github-20260610-001",
@@ -211,6 +211,51 @@
       ],
       "status": "published",
       "file": "github-20260612-009.json"
+    },
+    {
+      "id": "github-20260613-005",
+      "title": "SkyBlue997/enableMacosAI",
+      "source": "github",
+      "source_url": "https://github.com/SkyBlue997/enableMacosAI",
+      "score": 7,
+      "tags": [
+        "apple-intelligence",
+        "macos",
+        "region-unlock",
+        "private-cloud-compute"
+      ],
+      "status": "published",
+      "file": "github-20260613-005.json"
+    },
+    {
+      "id": "github-20260613-006",
+      "title": "plannotator/effective-html",
+      "source": "github",
+      "source_url": "https://github.com/plannotator/effective-html",
+      "score": 7,
+      "tags": [
+        "agent-skill",
+        "html-generation",
+        "plan-visualization",
+        "diagram-as-code"
+      ],
+      "status": "published",
+      "file": "github-20260613-006.json"
+    },
+    {
+      "id": "github-20260613-010",
+      "title": "coder/boo",
+      "source": "github",
+      "source_url": "https://github.com/coder/boo",
+      "score": 7,
+      "tags": [
+        "terminal-multiplexer",
+        "ghostty",
+        "gpu-rendering",
+        "screen-alternative"
+      ],
+      "status": "published",
+      "file": "github-20260613-010.json"
     },
     {
       "id": "rss-20260610-001",
@@ -478,6 +523,51 @@
       ],
       "status": "published",
       "file": "rss-20260612-006.json"
+    },
+    {
+      "id": "rss-20260613-001",
+      "title": "Open source AI must win",
+      "source": "rss",
+      "source_url": "https://opensourceaimustwin.com/?share=v2",
+      "score": 7,
+      "tags": [
+        "open-source-ai",
+        "ai-ethics",
+        "model-transparency",
+        "community-driven"
+      ],
+      "status": "published",
+      "file": "rss-20260613-001.json"
+    },
+    {
+      "id": "rss-20260613-003",
+      "title": "New OpenAI Academy courses for the next era of work",
+      "source": "rss",
+      "source_url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "score": 6,
+      "tags": [
+        "openai-academy",
+        "ai-education",
+        "agent-workflows",
+        "practical-ai"
+      ],
+      "status": "published",
+      "file": "rss-20260613-003.json"
+    },
+    {
+      "id": "rss-20260613-005",
+      "title": "How Box AI built enterprise content agents with Deep Agents",
+      "source": "rss",
+      "source_url": "https://www.langchain.com/blog/building-box-ai-how-an-enterprise-content-platform-went-ai-native-with-deep-agents",
+      "score": 8,
+      "tags": [
+        "enterprise-content",
+        "deep-agents",
+        "agent-framework",
+        "permissions-aware"
+      ],
+      "status": "published",
+      "file": "rss-20260613-005.json"
     }
   ]
 }

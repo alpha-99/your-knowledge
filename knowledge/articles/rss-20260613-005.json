@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260613-005",
+  "title": "How Box AI built enterprise content agents with Deep Agents",
+  "source": "rss",
+  "source_name": "LangChain Blog",
+  "source_url": "https://www.langchain.com/blog/building-box-ai-how-an-enterprise-content-platform-went-ai-native-with-deep-agents",
+  "category": "框架",
+  "author": "",
+  "published_at": "Fri, 12 Jun 2026 16:59:08 GMT",
+  "collected_at": "2026-06-13T10:33:57Z",
+  "summary": "Box 使用 Deep Agents 构建企业内容代理，实现权限感知的搜索、分析和合成，并保持安全与模型灵活性。",
+  "score": 8,
+  "tags": [
+    "enterprise-content",
+    "deep-agents",
+    "agent-framework",
+    "permissions-aware"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "基于 Deep Agents 框架实现细粒度权限控制，确保内容检索严格遵循企业安全策略",
+    "采用多代理协作架构，分别负责搜索、分析和综合，提升了复杂任务的拆解能力",
+    "支持模型灵活切换，底层 LLM 可替换，避免厂商锁定并适应不同业务场景需求"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-13T10:36:41Z"
+}

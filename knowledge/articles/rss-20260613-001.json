@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260613-001",
+  "title": "Open source AI must win",
+  "source": "rss",
+  "source_name": "Hacker News Best",
+  "source_url": "https://opensourceaimustwin.com/?share=v2",
+  "category": "综合技术",
+  "author": "",
+  "published_at": "Sat, 13 Jun 2026 02:14:24 +0000",
+  "collected_at": "2026-06-13T10:33:53Z",
+  "summary": "倡导开源AI生态以对抗闭源垄断，强调透明性、可访问性和社区驱动创新的核心价值。",
+  "score": 7,
+  "tags": [
+    "open-source-ai",
+    "ai-ethics",
+    "model-transparency",
+    "community-driven"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "论证开源模型可降低AI技术门槛并促进广泛创新",
+    "对比闭源API的依赖风险与开源自部署的自主性",
+    "引用HuggingFace等社区生态数据说明开源协作的规模效应"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-13T10:36:41Z"
+}

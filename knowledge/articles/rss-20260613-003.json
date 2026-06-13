@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260613-003",
+  "title": "New OpenAI Academy courses for the next era of work",
+  "source": "rss",
+  "source_name": "OpenAI Blog",
+  "source_url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+  "category": "公司博客",
+  "author": "",
+  "published_at": "Fri, 12 Jun 2026 10:00:00 GMT",
+  "collected_at": "2026-06-13T10:33:55Z",
+  "summary": "OpenAI推出三门学院课程，聚焦实用AI技能、可重复工作流构建及日常工作中的智能体应用，提升职场AI落地能力。",
+  "score": 6,
+  "tags": [
+    "openai-academy",
+    "ai-education",
+    "agent-workflows",
+    "practical-ai"
+  ],
+  "audience": "beginner",
+  "highlights": [
+    "课程内容涵盖智能体与可重复工作流的实际设计方法",
+    "面向日常工作场景，教授AI工具与技能的直接应用",
+    "由OpenAI官方提供，确保内容质量与前沿实践对齐"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-13T10:36:41Z"
+}

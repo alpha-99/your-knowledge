@@ -1,0 +1,27 @@
+{
+  "id": "github-20260613-005",
+  "title": "SkyBlue997/enableMacosAI",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/SkyBlue997/enableMacosAI",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-13T10:33:47Z",
+  "summary": "国行 Mac 一键解锁完整 Apple Intelligence，同时启用端侧模型与 Private Cloud Compute，专为 macOS 27 和 Apple Silicon 设计，无缝集成系统级智能。",
+  "score": 7,
+  "tags": [
+    "apple-intelligence",
+    "macos",
+    "region-unlock",
+    "private-cloud-compute"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "一键激活被区域限制的 Apple Intelligence，包括端侧模型和 Private Cloud Compute 云端推理",
+    "基于系统配置文件修改，保持 OTA 更新兼容，无需重装系统",
+    "专为 macOS 27 和 Apple Silicon 优化，支持国行设备无缝启用智能功能"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-13T10:36:41Z"
+}
