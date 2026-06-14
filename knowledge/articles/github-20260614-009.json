@@ -1,0 +1,27 @@
+{
+  "id": "github-20260614-009",
+  "title": "alchaincyf/fanbox",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/alchaincyf/fanbox",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-14T10:51:39Z",
+  "summary": "fanbox 整合文件浏览、终端与实时改动监控，打造 vibe coding 一体化驾驶舱，减少上下文切换。",
+  "score": 7,
+  "tags": [
+    "vibe-coding",
+    "terminal-ui",
+    "ai-assisted-coding",
+    "developer-tools"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "三栏式布局：文件树、终端、diff 视图，实时呈现代码变更",
+    "通过终端直接操控 AI agent，实现指令式代码生成与修改",
+    "为 vibe coding 工作流优化，文件操作与改动可视无缝衔接"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-14T10:53:58Z"
+}

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-13T10:36:41Z",
-  "total": 38,
+  "updated_at": "2026-06-14T10:53:58Z",
+  "total": 43,
   "articles": [
     {
       "id": "github-20260610-001",
@@ -256,6 +256,50 @@
       ],
       "status": "published",
       "file": "github-20260613-010.json"
+    },
+    {
+      "id": "github-20260614-004",
+      "title": "omnigent-ai/omnigent",
+      "source": "github",
+      "source_url": "https://github.com/omnigent-ai/omnigent",
+      "score": 8,
+      "tags": [
+        "agent-orchestration",
+        "ai-coding-harness",
+        "sandboxing",
+        "real-time-collaboration"
+      ],
+      "status": "published",
+      "file": "github-20260614-004.json"
+    },
+    {
+      "id": "github-20260614-007",
+      "title": "orange2ai/renwei-writing",
+      "source": "github",
+      "source_url": "https://github.com/orange2ai/renwei-writing",
+      "score": 6,
+      "tags": [
+        "ai-agent-skill",
+        "writing-style-preservation",
+        "text-revision"
+      ],
+      "status": "published",
+      "file": "github-20260614-007.json"
+    },
+    {
+      "id": "github-20260614-009",
+      "title": "alchaincyf/fanbox",
+      "source": "github",
+      "source_url": "https://github.com/alchaincyf/fanbox",
+      "score": 7,
+      "tags": [
+        "vibe-coding",
+        "terminal-ui",
+        "ai-assisted-coding",
+        "developer-tools"
+      ],
+      "status": "published",
+      "file": "github-20260614-009.json"
     },
     {
       "id": "rss-20260610-001",
@@ -568,6 +612,36 @@
       ],
       "status": "published",
       "file": "rss-20260613-005.json"
+    },
+    {
+      "id": "rss-20260614-001",
+      "title": "The future of Siri, or: why private inference isn’t private enough",
+      "source": "rss",
+      "source_url": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
+      "score": 8,
+      "tags": [
+        "private-inference",
+        "homomorphic-encryption",
+        "differential-privacy",
+        "siri"
+      ],
+      "status": "published",
+      "file": "rss-20260614-001.json"
+    },
+    {
+      "id": "rss-20260614-007",
+      "title": "How we used Gemini to build Google I/O 2026",
+      "source": "rss",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "score": 7,
+      "tags": [
+        "gemini",
+        "event-production",
+        "ai-assisted-content",
+        "google-io"
+      ],
+      "status": "published",
+      "file": "rss-20260614-007.json"
     }
   ]
 }

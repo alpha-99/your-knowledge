@@ -1,0 +1,27 @@
+{
+  "id": "github-20260614-004",
+  "title": "omnigent-ai/omnigent",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/omnigent-ai/omnigent",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-14T10:51:39Z",
+  "summary": "Omnigent 是为 AI 代理打造的元 Harness，统一 Claude Code、Codex、Pi 等接口，支持热切换代理、策略沙箱和跨设备实时协作。",
+  "score": 8,
+  "tags": [
+    "agent-orchestration",
+    "ai-coding-harness",
+    "sandboxing",
+    "real-time-collaboration"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "提供统一的代理抽象层，可无缝切换 Claude Code、Codex、Pi 等不同 AI 编码助手",
+    "内置策略控制与沙箱机制，确保代理行为安全可控",
+    "支持多设备实时共同协作同一会话，实现跨终端同步开发"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-14T10:53:58Z"
+}
