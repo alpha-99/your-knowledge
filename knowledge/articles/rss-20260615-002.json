@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260615-002",
+  "title": "We built SmithDB, the data layer for agent observability",
+  "source": "rss",
+  "source_name": "Lobsters AI/ML",
+  "source_url": "https://www.langchain.com/blog/introducing-smithdb",
+  "category": "综合技术",
+  "author": "",
+  "published_at": "Mon, 15 Jun 2026 09:16:48 -0500",
+  "collected_at": "2026-06-15T14:28:43Z",
+  "summary": "SmithDB是为AI代理行为观测设计的专用数据存储层，提供运行跟踪与实时查询能力。",
+  "score": 7,
+  "tags": [
+    "agent-observability",
+    "data-layer",
+    "llm-monitoring",
+    "langchain"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "专为代理运行生命周期设计的时序与事件存储模型，支持精确到毫秒的上下文检索",
+    "内置面向调试和监控的分析查询语言，可快速过滤失败步骤与性能瓶颈",
+    "无缝集成LangSmith生态，实现从开发到生产的统一可观察数据管线"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-15T14:32:33Z"
+}

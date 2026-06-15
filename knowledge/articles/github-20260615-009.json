@@ -1,0 +1,27 @@
+{
+  "id": "github-20260615-009",
+  "title": "nolangz/pixel2motion",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/nolangz/pixel2motion",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-15T14:28:42Z",
+  "summary": "将栅格logo自动转为平滑SVG动画，输出HTML演示与视频预览，并提供运动质量验证证据，简化品牌动态设计。",
+  "score": 7,
+  "tags": [
+    "ai-animation",
+    "svg-motion",
+    "logo-generation",
+    "motion-qa"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "直接从像素图生成可缩放SVG路径动画，避免手动重构矢量路径",
+    "输出动画HTML演示、GIF和视频预览，实现一键多渠道展示",
+    "内置运动质量评估（motion QA evidence），提供动画平滑度的可验证证据"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-15T14:32:33Z"
+}

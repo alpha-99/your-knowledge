@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-14T10:53:58Z",
-  "total": 43,
+  "updated_at": "2026-06-15T14:32:33Z",
+  "total": 49,
   "articles": [
     {
       "id": "github-20260610-001",
@@ -300,6 +300,36 @@
       ],
       "status": "published",
       "file": "github-20260614-009.json"
+    },
+    {
+      "id": "github-20260615-009",
+      "title": "nolangz/pixel2motion",
+      "source": "github",
+      "source_url": "https://github.com/nolangz/pixel2motion",
+      "score": 7,
+      "tags": [
+        "ai-animation",
+        "svg-motion",
+        "logo-generation",
+        "motion-qa"
+      ],
+      "status": "published",
+      "file": "github-20260615-009.json"
+    },
+    {
+      "id": "github-20260615-010",
+      "title": "DanMcInerney/architect-loop",
+      "source": "github",
+      "source_url": "https://github.com/DanMcInerney/architect-loop",
+      "score": 8,
+      "tags": [
+        "agent-loop",
+        "claude-skill",
+        "cross-vendor",
+        "multi-agent"
+      ],
+      "status": "published",
+      "file": "github-20260615-010.json"
     },
     {
       "id": "rss-20260610-001",
@@ -642,6 +672,66 @@
       ],
       "status": "published",
       "file": "rss-20260614-007.json"
+    },
+    {
+      "id": "rss-20260615-001",
+      "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+      "source": "rss",
+      "source_url": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "score": 7,
+      "tags": [
+        "model-merge",
+        "llm",
+        "open-source",
+        "transparency"
+      ],
+      "status": "published",
+      "file": "rss-20260615-001.json"
+    },
+    {
+      "id": "rss-20260615-002",
+      "title": "We built SmithDB, the data layer for agent observability",
+      "source": "rss",
+      "source_url": "https://www.langchain.com/blog/introducing-smithdb",
+      "score": 7,
+      "tags": [
+        "agent-observability",
+        "data-layer",
+        "llm-monitoring",
+        "langchain"
+      ],
+      "status": "published",
+      "file": "rss-20260615-002.json"
+    },
+    {
+      "id": "rss-20260615-003",
+      "title": "A Deep Reinforcement Learning (DRL)-Based Transformer Method for Solving the Open Shop Scheduling Problem",
+      "source": "rss",
+      "source_url": "https://arxiv.org/abs/2606.13682",
+      "score": 7,
+      "tags": [
+        "deep-reinforcement-learning",
+        "transformer",
+        "open-shop-scheduling",
+        "combinatorial-optimization"
+      ],
+      "status": "published",
+      "file": "rss-20260615-003.json"
+    },
+    {
+      "id": "rss-20260615-004",
+      "title": "Introducing the OpenAI Partner Network",
+      "source": "rss",
+      "source_url": "https://openai.com/index/introducing-openai-partner-network",
+      "score": 5,
+      "tags": [
+        "partner-ecosystem",
+        "enterprise-ai",
+        "openai",
+        "deployment"
+      ],
+      "status": "archived",
+      "file": "rss-20260615-004.json"
     }
   ]
 }
