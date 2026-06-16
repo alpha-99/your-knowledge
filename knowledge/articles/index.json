@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-15T14:32:33Z",
-  "total": 49,
+  "updated_at": "2026-06-16T13:02:21Z",
+  "total": 54,
   "articles": [
     {
       "id": "github-20260610-001",
@@ -330,6 +330,36 @@
       ],
       "status": "published",
       "file": "github-20260615-010.json"
+    },
+    {
+      "id": "github-20260616-009",
+      "title": "mrtooher/fable-mode",
+      "source": "github",
+      "source_url": "https://github.com/mrtooher/fable-mode",
+      "score": 7,
+      "tags": [
+        "agent-framework",
+        "prompt-engineering",
+        "self-verification",
+        "llm-inference"
+      ],
+      "status": "published",
+      "file": "github-20260616-009.json"
+    },
+    {
+      "id": "github-20260616-010",
+      "title": "LearnPrompt/luban-skill",
+      "source": "github",
+      "source_url": "https://github.com/LearnPrompt/luban-skill",
+      "score": 7,
+      "tags": [
+        "agent-skill",
+        "skill-polishing",
+        "community-assets",
+        "workshop"
+      ],
+      "status": "published",
+      "file": "github-20260616-010.json"
     },
     {
       "id": "rss-20260610-001",
@@ -732,6 +762,51 @@
       ],
       "status": "archived",
       "file": "rss-20260615-004.json"
+    },
+    {
+      "id": "rss-20260616-001",
+      "title": "Building llm-driven “ai” still requires domain knowledge",
+      "source": "rss",
+      "source_url": "https://lobste.rs/s/q9sd1m/building_llm_driven_ai_still_requires",
+      "score": 7,
+      "tags": [
+        "llm-driven",
+        "domain-knowledge",
+        "knowledge-engineering",
+        "ai-tool"
+      ],
+      "status": "published",
+      "file": "rss-20260616-001.json"
+    },
+    {
+      "id": "rss-20260616-002",
+      "title": "A Definition of Good Explanations and the Challenges Explaining LLM Outputs",
+      "source": "rss",
+      "source_url": "https://arxiv.org/abs/2606.14838",
+      "score": 7,
+      "tags": [
+        "counterfactual-explanations",
+        "explainability",
+        "llm-outputs",
+        "belief-revision"
+      ],
+      "status": "published",
+      "file": "rss-20260616-002.json"
+    },
+    {
+      "id": "rss-20260616-005",
+      "title": "Building a 100x Cheaper Trace Judge with Fireworks",
+      "source": "rss",
+      "source_url": "https://www.langchain.com/blog/building-a-100x-cheaper-trace-judge-with-fireworks",
+      "score": 8,
+      "tags": [
+        "fine-tuning",
+        "trace-judge",
+        "cost-optimization",
+        "open-model"
+      ],
+      "status": "published",
+      "file": "rss-20260616-005.json"
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260616-002",
+  "title": "A Definition of Good Explanations and the Challenges Explaining LLM Outputs",
+  "source": "rss",
+  "source_name": "arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2606.14838",
+  "category": "AI研究",
+  "author": "",
+  "published_at": "Tue, 16 Jun 2026 00:00:00 -0400",
+  "collected_at": "2026-06-16T12:59:08Z",
+  "summary": "本文提出好解释需结合反事实推理与对话者先验信念，分析LLM输出难获得好解释的根源，对AI可解释性有理论启示。",
+  "score": 7,
+  "tags": [
+    "counterfactual-explanations",
+    "explainability",
+    "llm-outputs",
+    "belief-revision"
+  ],
+  "audience": "advanced",
+  "highlights": [
+    "将反事实解释与对话者先验信念结合，重新定义“好解释”的哲学标准",
+    "深入论证LLM输出难以生成好解释的原因，指出其文本生成方式与完整信念模型不匹配",
+    "为AI可解释性研究提供新的理论框架，强调解释必须适应接受者的已有认知"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-16T13:02:21Z"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "github-20260616-009",
+  "title": "mrtooher/fable-mode",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/mrtooher/fable-mode",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-16T12:59:07Z",
+  "summary": "Claude技能工具，实现寓言式智能体行为：多阶段规划、子代理委派与自我验证，提升复杂任务解决能力。",
+  "score": 7,
+  "tags": [
+    "agent-framework",
+    "prompt-engineering",
+    "self-verification",
+    "llm-inference"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "显式多阶段规划：将复杂任务分解为顺序步骤并结构化执行",
+    "子代理委派机制：动态创建并协调专门化子代理处理子任务",
+    "自我验证循环：生成解决方案后自动校验，确保输出质量"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-16T13:02:21Z"
+}

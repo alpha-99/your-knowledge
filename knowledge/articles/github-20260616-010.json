@@ -1,0 +1,27 @@
+{
+  "id": "github-20260616-010",
+  "title": "LearnPrompt/luban-skill",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/LearnPrompt/luban-skill",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-16T12:59:07Z",
+  "summary": "将Agent技能打磨为可安装、传播、验证、进化的公共资产，提供包含验料、访行等五步工艺的技能打磨工作坊。",
+  "score": 7,
+  "tags": [
+    "agent-skill",
+    "skill-polishing",
+    "community-assets",
+    "workshop"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "提出‘验料·访行·过尺·慢刨·回炉’五步工艺，系统化打磨技能质量",
+    "强调技能作为公共资产‘能被装、能传播、能验证、能进化’的四能标准",
+    "提供Workshop机制将原始Agent Skill转化为标准化、可复用的组件"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-16T13:02:21Z"
+}
