@@ -1,0 +1,27 @@
+{
+  "id": "github-20260617-010",
+  "title": "Nanako0129/coralline",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/Nanako0129/coralline",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-17T12:21:09Z",
+  "summary": "受 Powerlevel10k 启发的 Claude Code 状态行工具，通过 AI 交互式采访用户偏好后自动生成并安装配置。",
+  "score": 7,
+  "tags": [
+    "claude-code",
+    "statusline",
+    "powerlevel10k",
+    "ai-configuration"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "通过粘贴单个提示触发 AI 采访流程，自动收集用户偏好并生成个性化状态行配置",
+    "设计灵感源自 Powerlevel10k，提供丰富且美观的终端信息展示风格",
+    "专为 Claude Code 环境优化，安装后即提升命令行交互效率与视觉体验"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-17T12:24:13Z"
+}

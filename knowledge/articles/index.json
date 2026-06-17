@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-16T13:02:21Z",
-  "total": 54,
+  "updated_at": "2026-06-17T12:24:13Z",
+  "total": 60,
   "articles": [
     {
       "id": "github-20260610-001",
@@ -360,6 +360,51 @@
       ],
       "status": "published",
       "file": "github-20260616-010.json"
+    },
+    {
+      "id": "github-20260617-005",
+      "title": "Plaer1/junction",
+      "source": "github",
+      "source_url": "https://github.com/Plaer1/junction",
+      "score": 7,
+      "tags": [
+        "vs-code-extension",
+        "local-ai",
+        "coding-agent",
+        "chat-sidebar"
+      ],
+      "status": "published",
+      "file": "github-20260617-005.json"
+    },
+    {
+      "id": "github-20260617-009",
+      "title": "TestSprite/testsprite-cli",
+      "source": "github",
+      "source_url": "https://github.com/TestSprite/testsprite-cli",
+      "score": 8,
+      "tags": [
+        "ai-testing",
+        "cli-tool",
+        "test-automation",
+        "llm-integration"
+      ],
+      "status": "published",
+      "file": "github-20260617-009.json"
+    },
+    {
+      "id": "github-20260617-010",
+      "title": "Nanako0129/coralline",
+      "source": "github",
+      "source_url": "https://github.com/Nanako0129/coralline",
+      "score": 7,
+      "tags": [
+        "claude-code",
+        "statusline",
+        "powerlevel10k",
+        "ai-configuration"
+      ],
+      "status": "published",
+      "file": "github-20260617-010.json"
     },
     {
       "id": "rss-20260610-001",
@@ -807,6 +852,51 @@
       ],
       "status": "published",
       "file": "rss-20260616-005.json"
+    },
+    {
+      "id": "rss-20260617-002",
+      "title": "Beyond Parallel Sampling: Diverse Query Initialization for Agentic Search",
+      "source": "rss",
+      "source_url": "https://arxiv.org/abs/2606.17209",
+      "score": 8,
+      "tags": [
+        "agentic-search",
+        "parallel-sampling",
+        "query-diversification",
+        "test-time-scaling"
+      ],
+      "status": "published",
+      "file": "rss-20260617-002.json"
+    },
+    {
+      "id": "rss-20260617-003",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "source": "rss",
+      "source_url": "https://openai.com/index/deployment-simulation",
+      "score": 8,
+      "tags": [
+        "deployment-simulation",
+        "safety-evaluation",
+        "model-behavior-prediction",
+        "openai"
+      ],
+      "status": "published",
+      "file": "rss-20260617-003.json"
+    },
+    {
+      "id": "rss-20260617-005",
+      "title": "How Factory used LangSmith to automate their feedback loop and improve iteration speed by 2x",
+      "source": "rss",
+      "source_url": "https://www.langchain.com/blog/customers-factory",
+      "score": 7,
+      "tags": [
+        "langsmith",
+        "feedback-loop",
+        "iteration-speed",
+        "llm-observability"
+      ],
+      "status": "published",
+      "file": "rss-20260617-005.json"
     }
   ]
 }
