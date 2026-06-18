@@ -37,7 +37,7 @@ from typing import Any, Sequence
 import httpx
 import yaml
 
-from model_client import create_provider, chat_with_retry
+from model_client import create_provider, chat_with_retry, get_tracker
 
 # ============================================================================
 # Logging
@@ -882,6 +882,11 @@ def run_pipeline(
             _save(articles, dry_run=False)
 
             logger.info("Pipeline complete  %d article(s) final", len(articles))
+
+        logger.info("-" * 50)
+        logger.info("Cost Tracker Report")
+        logger.info("-" * 50)
+        get_tracker().report()
 
         return 0
 

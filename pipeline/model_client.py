@@ -2,7 +2,8 @@
 """Unified LLM client supporting DeepSeek, Qwen, and OpenAI providers.
 
 Provides a common interface for OpenAI-compatible API endpoints with
-built-in retry logic, token estimation, and cost calculation.
+built-in retry logic, token estimation, cost calculation, and automatic
+cost tracking in CNY for domestic providers.
 
 Configuration is loaded from ``.env`` via python-dotenv.  Copy
 ``.env.example`` to ``.env`` and fill in your API keys.  All settings
@@ -133,6 +134,13 @@ CHARS_PER_TOKEN_CHINESE: int = 2
 
 _SUPPORTED_PROVIDERS: str = ", ".join(sorted(_PROVIDER_CONFIGS.keys()))
 
+_CNY_PRICE_TABLE: dict[str, dict[str, float]] = {
+    "deepseek": {"input": 1.0, "output": 2.0},
+    "qwen": {"input": 4.0, "output": 12.0},
+    "openai": {"input": 150.0, "output": 600.0},
+}
+"""Per-million-token pricing in CNY (元) for domestic LLM providers."""
+
 # =====================================================================
 # Data Classes
 # =====================================================================
@@ -228,10 +236,17 @@ class OpenAICompatibleProvider(LLMProvider):
         model: Model identifier string.
     """
 
-    def __init__(self, api_base: str, api_key: str, model: str) -> None:
+    def __init__(
+        self,
+        api_base: str,
+        api_key: str,
+        model: str,
+        provider_name: Optional[str] = None,
+    ) -> None:
         self._api_base = api_base.rstrip("/")
         self._api_key = api_key
         self._model = model
+        self._provider_name = provider_name
 
     @property
     def model(self) -> str:
@@ -296,6 +311,9 @@ class OpenAICompatibleProvider(LLMProvider):
             total_tokens=usage_raw.get("total_tokens", 0),
         )
 
+        if self._provider_name:
+            _global_tracker.record(usage, self._provider_name)
+
         return LLMResponse(content=message.get("content", ""), usage=usage)
 
 
@@ -347,6 +365,7 @@ def create_provider(
         api_base=config["api_base"],
         api_key=api_key,
         model=selected_model,
+        provider_name=name,
     )
 
 
@@ -500,6 +519,110 @@ def calculate_cost(
 
 
 # =====================================================================
+# Cost Tracker
+# =====================================================================
+
+
+class CostTracker:
+    """Track LLM API call token usage and estimated cost in CNY.
+
+    Records each API call's :class:`Usage` and provides methods to
+    calculate estimated cost and generate reports based on domestic
+    provider pricing (``_CNY_PRICE_TABLE``).
+
+    Attributes:
+        _records: Mapping from provider name to a list of recorded
+            :class:`Usage` entries.
+    """
+
+    def __init__(self) -> None:
+        self._records: dict[str, list[Usage]] = {}
+
+    def record(self, usage: Usage, provider: str) -> None:
+        """Record a single API call's token usage.
+
+        Args:
+            usage: Token usage statistics from the API response.
+            provider: Provider name (e.g. ``deepseek``, ``qwen``, ``openai``).
+        """
+        if provider not in self._records:
+            self._records[provider] = []
+        self._records[provider].append(usage)
+
+    def estimated_cost(self, provider: str) -> float:
+        """Calculate total estimated cost for a provider in CNY.
+
+        Uses the provider's per-million-token pricing from
+        :data:`_CNY_PRICE_TABLE`.
+
+        Args:
+            provider: Provider name.
+
+        Returns:
+            Estimated total cost in CNY (元). Returns 0.0 if the
+            provider is unknown or has no records.
+        """
+        pricing = _CNY_PRICE_TABLE.get(provider)
+        if not pricing:
+            return 0.0
+        total = 0.0
+        for usage in self._records.get(provider, []):
+            input_cost = (usage.prompt_tokens / 1_000_000) * pricing["input"]
+            output_cost = (
+                usage.completion_tokens / 1_000_000
+            ) * pricing["output"]
+            total += input_cost + output_cost
+        return total
+
+    def report(self, provider: Optional[str] = None) -> None:
+        """Print a cost report to stdout.
+
+        If ``provider`` is given, only that provider is reported.
+        Otherwise all tracked providers are reported in alphabetical
+        order.
+
+        Args:
+            provider: Optional provider name to filter the report.
+        """
+        if provider:
+            providers = [provider] if provider in self._records else []
+        else:
+            providers = sorted(self._records.keys())
+
+        if not providers:
+            print("(no records)")
+            return
+
+        for prov in providers:
+            records = self._records[prov]
+            total_input = sum(r.prompt_tokens for r in records)
+            total_output = sum(r.completion_tokens for r in records)
+            calls = len(records)
+            cost = self.estimated_cost(prov)
+            print(
+                f"[{prov}] calls={calls} "
+                f"input={total_input} output={total_output} "
+                f"cost=¥{cost:.6f}"
+            )
+
+
+_global_tracker = CostTracker()
+"""Global :class:`CostTracker` instance shared across the module."""
+
+
+def get_tracker() -> CostTracker:
+    """Return the global :class:`CostTracker` instance.
+
+    The tracker is automatically populated by :meth:`OpenAICompatibleProvider.chat`
+    for providers created via :func:`create_provider`.
+
+    Returns:
+        The module-level :class:`CostTracker` singleton.
+    """
+    return _global_tracker
+
+
+# =====================================================================
 # Convenience Function
 # =====================================================================
 
@@ -611,3 +734,7 @@ if __name__ == "__main__":
         logger.warning("Skipping live test: %s", exc)
     except Exception:
         logger.exception("Live test failed with unexpected error")
+
+    logger.info("")
+    logger.info("=== Cost Tracker Report ===")
+    get_tracker().report()
