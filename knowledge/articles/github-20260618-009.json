@@ -1,0 +1,27 @@
+{
+  "id": "github-20260618-009",
+  "title": "rebel0789/codexpro",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/rebel0789/codexpro",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-18T11:54:03Z",
+  "summary": "将ChatGPT开发者模式通过MCP作为本地代码代理，直接操作仓库实现智能编码辅助。",
+  "score": 8,
+  "tags": [
+    "chatgpt",
+    "mcp",
+    "code-agent",
+    "developer-mode"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "基于Model Context Protocol实现与本地仓库的深度集成，允许ChatGPT直接读写文件",
+    "启用ChatGPT Developer Mode，释放更强大的代码生成与调试能力",
+    "作为本地代理执行重构、生成测试等编码任务，提供流畅的仓库级交互体验"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-18T11:57:07Z"
+}

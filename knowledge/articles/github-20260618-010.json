@@ -1,0 +1,27 @@
+{
+  "id": "github-20260618-010",
+  "title": "dzcmemory-web/bazi-ziwei-skill",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/dzcmemory-web/bazi-ziwei-skill",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-18T11:54:03Z",
+  "summary": "基于精确算法的八字紫微排盘工具，支持三种分析模式，一键生成水墨风 HTML 命盘海报，兼容主流 AI Agent。",
+  "score": 8,
+  "tags": [
+    "bazi-paipan",
+    "ziwei-doushu",
+    "skill-agent",
+    "html-poster"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "纯算法精准排盘，完全不依赖 LLM 猜测，确保命盘数据可靠",
+    "支持八字、紫微、综合三种分析模式，多角度交叉印证",
+    "一键生成水墨风格 HTML 命盘海报，兼具实用与美学展示"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-18T11:57:07Z"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260618-001",
+  "title": "Leaked financial docs show OpenAI is losing billions of dollars a year",
+  "source": "rss",
+  "source_name": "Hacker News Best",
+  "source_url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
+  "category": "综合技术",
+  "author": "",
+  "published_at": "Wed, 17 Jun 2026 21:31:35 +0000",
+  "collected_at": "2026-06-18T11:54:09Z",
+  "summary": "OpenAI 财务文件泄露揭示其年亏损数十亿美元，凸显大模型训练与推理的超高基础设施成本压力，AI 商业化可持续性面临严峻挑战。",
+  "score": 3,
+  "tags": [
+    "openai",
+    "financials",
+    "ai-infrastructure-costs",
+    "large-language-models"
+  ],
+  "audience": "beginner",
+  "highlights": [
+    "泄露数据表明大语言模型公司即使在巨额收入下仍持续严重亏损",
+    "高计算成本与研发投入导致单位经济模型难以成立",
+    "该事件引发对 AI 产业泡沫与开源替代方案经济可行性的对比讨论"
+  ],
+  "status": "archived",
+  "updated_at": "2026-06-18T11:57:07Z"
+}

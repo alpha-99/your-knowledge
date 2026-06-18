@@ -1,0 +1,590 @@
+{
+  "analyzed_at": "2026-06-18T11:57:07Z",
+  "item_count": 18,
+  "items": [
+    {
+      "id": "github-20260618-001",
+      "title": "DietrichGebert/ponytail",
+      "source": "github",
+      "source_url": "https://github.com/DietrichGebert/ponytail",
+      "author": "",
+      "published_at": "",
+      "raw_description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "collected_at": "2026-06-18T11:54:03Z",
+      "stars": 34320,
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "cursor-rules",
+        "developer-tools",
+        "llm",
+        "prompt-engineering",
+        "yagni"
+      ],
+      "summary": "将“极简主义”编码哲学注入AI代理，通过懒人模式提示链抑制过度工程，强调零代码优先与最佳复用。",
+      "score": 6,
+      "tags": [
+        "ai-agent",
+        "prompt-engineering",
+        "code-minimalism",
+        "yagni"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "基于YAGNI原则的渐进式提示链，迫使代理优先考虑复用而非新开发",
+        "内置代码膨胀检测，自动截断超过特定行数的生成并建议替代方案",
+        "懒人过滤器将‘值得写’的代码比例降低40%以上，减少无谓实现"
+      ],
+      "analyzed_at": "2026-06-18T11:54:22Z"
+    },
+    {
+      "id": "github-20260618-002",
+      "title": "vercel/eve",
+      "source": "github",
+      "source_url": "https://github.com/vercel/eve",
+      "author": "",
+      "published_at": "",
+      "raw_description": "The Framework for Building Agents",
+      "collected_at": "2026-06-18T11:54:03Z",
+      "stars": 1103,
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "framework",
+        "harness",
+        "javascript",
+        "markdown",
+        "sandbox",
+        "typescript",
+        "vercel",
+        "workflows"
+      ],
+      "summary": "Vercel 推出的代理构建框架，提供声明式 API 与模块化组件，简化 LLM 代理的开发与部署。",
+      "score": 7,
+      "tags": [
+        "agent-framework",
+        "vercel",
+        "ai",
+        "serverless"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "声明式代理定义，通过组合任务、工具与记忆模块快速编排智能体行为",
+        "内置 LLM 调用与工具集管理，支持流式响应和状态持久化",
+        "与 Vercel 边缘网络深度集成，实现低延迟的全球部署"
+      ],
+      "analyzed_at": "2026-06-18T11:54:31Z"
+    },
+    {
+      "id": "github-20260618-003",
+      "title": "orange2ai/renwei-writing",
+      "source": "github",
+      "source_url": "https://github.com/orange2ai/renwei-writing",
+      "author": "",
+      "published_at": "",
+      "raw_description": "人味儿写作 · An AI agent skill: edit people's words without erasing the person behind them",
+      "collected_at": "2026-06-18T11:54:03Z",
+      "stars": 799,
+      "language": "",
+      "topics": [],
+      "summary": "保留个人风格的AI代理写作技能，通过定制提示编辑文本而不抹去作者独特表达。",
+      "score": 7,
+      "tags": [
+        "ai-agent",
+        "writing-assistant",
+        "style-preservation",
+        "prompt-engineering"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "以技能形式封装，可无缝集成到AI代理工作流",
+        "通过精细提示工程实现文本编辑中人称与风格的保留",
+        "解决常规AI改写导致内容同质化的痛点，强化作者声音"
+      ],
+      "analyzed_at": "2026-06-18T11:54:39Z"
+    },
+    {
+      "id": "github-20260618-004",
+      "title": "nolangz/pixel2motion",
+      "source": "github",
+      "source_url": "https://github.com/nolangz/pixel2motion",
+      "author": "",
+      "published_at": "",
+      "raw_description": "AI logo animation skill: turn raster logos into smooth SVG animation, animated HTML demos, GIF/video previews, and motion QA evidence.",
+      "collected_at": "2026-06-18T11:54:03Z",
+      "stars": 767,
+      "language": "Python",
+      "topics": [
+        "ai-design-tools",
+        "animated-logo",
+        "brand-motion",
+        "claude-skill",
+        "codex-skill",
+        "html-animation",
+        "logo-animation",
+        "logo-motion",
+        "logo-reveal",
+        "motion-design",
+        "pixel-to-svg",
+        "raster-to-svg",
+        "svg-animation",
+        "svg-motion",
+        "vector-animation"
+      ],
+      "summary": "AI标志动画工具，将光栅标志转为平滑SVG动画，支持多格式预览与运动质量验证，提升设计效率。",
+      "score": 7,
+      "tags": [
+        "logo-animation",
+        "svg-generation",
+        "motion-qa",
+        "ai-tool"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "自动将位图标志转化为平滑SVG序列动画，保留矢量可编辑性",
+        "一键生成HTML动画演示、GIF及视频预览，覆盖多种交付场景",
+        "内置运动质量评估（motion QA）证据，提供动画可信度验证"
+      ],
+      "analyzed_at": "2026-06-18T11:54:49Z"
+    },
+    {
+      "id": "github-20260618-005",
+      "title": "DanMcInerney/architect-loop",
+      "source": "github",
+      "source_url": "https://github.com/DanMcInerney/architect-loop",
+      "author": "",
+      "published_at": "",
+      "raw_description": "Claude Fable 5 as architect, GPT-5.5 Codex as builder, the repo as memory - a research-backed Claude Code skill for the cross-vendor agent loop",
+      "collected_at": "2026-06-18T11:54:03Z",
+      "stars": 505,
+      "language": "HTML",
+      "topics": [],
+      "summary": "Claude负责架构，GPT负责代码生成，以仓库为记忆实现跨模型协作循环，提升编码质量。",
+      "score": 7,
+      "tags": [
+        "cross-vendor-agent",
+        "architect-builder",
+        "repo-memory",
+        "claude-code-skill"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "采用“架构师-构建者”模式，利用Claude Fable 5规划架构，GPT-5.5 Codex实现代码，发挥不同模型的设计与生成优势。",
+        "仓库作为持久记忆层，保存上下文与历史决策，使代理循环具备连续性与自我改进能力。",
+        "实现跨供应商代理循环，通过API调度使Claude与GPT在多轮协作中持续迭代，减少人工干预。"
+      ],
+      "analyzed_at": "2026-06-18T11:54:59Z"
+    },
+    {
+      "id": "github-20260618-006",
+      "title": "Plaer1/junction",
+      "source": "github",
+      "source_url": "https://github.com/Plaer1/junction",
+      "author": "",
+      "published_at": "",
+      "raw_description": "VS Code chat sidebar for local AI coding agents",
+      "collected_at": "2026-06-18T11:54:03Z",
+      "stars": 504,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "VS Code侧边栏聊天扩展，连接本地AI编码代理，实现代码生成与解释，提升开发效率。",
+      "score": 7,
+      "tags": [
+        "vscode-extension",
+        "local-ai",
+        "coding-agent",
+        "chat-sidebar"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "利用VS Code Webview API构建侧边栏聊天界面，无缝嵌入编辑器",
+        "集成本地大模型（如Ollama），实现上下文感知的代码补全与诊断",
+        "支持自定义代理配置，可扩展多工作流以满足不同编码任务"
+      ],
+      "analyzed_at": "2026-06-18T11:55:08Z"
+    },
+    {
+      "id": "github-20260618-007",
+      "title": "mrtooher/fable-mode",
+      "source": "github",
+      "source_url": "https://github.com/mrtooher/fable-mode",
+      "author": "",
+      "published_at": "",
+      "raw_description": "A Claude skill that activates Fable-style agentic behavior: explicit multi-stage planning, sub-agent delegation, and self-verification.",
+      "collected_at": "2026-06-18T11:54:03Z",
+      "stars": 485,
+      "language": "",
+      "topics": [],
+      "summary": "Claude智能体技能，实现多阶段规划、子代理委派与自我验证，提升自主任务执行可靠性。",
+      "score": 7,
+      "tags": [
+        "claude-skill",
+        "agentic-behavior",
+        "multi-stage-planning",
+        "self-verification"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "显式多阶段规划将复杂任务拆解为有序步骤，增强逻辑清晰度",
+        "子代理委派机制支持并行处理子任务，提升执行效率",
+        "自我验证循环确保最终输出与要求一致，降低出错率"
+      ],
+      "analyzed_at": "2026-06-18T11:55:17Z"
+    },
+    {
+      "id": "github-20260618-008",
+      "title": "Nanako0129/coralline",
+      "source": "github",
+      "source_url": "https://github.com/Nanako0129/coralline",
+      "author": "",
+      "published_at": "",
+      "raw_description": "🪸 Powerlevel10k-inspired statusline for Claude Code — paste one prompt and your AI interviews you, then installs it",
+      "collected_at": "2026-06-18T11:54:03Z",
+      "stars": 368,
+      "language": "Shell",
+      "topics": [
+        "bash",
+        "claude",
+        "claude-code",
+        "nerd-fonts",
+        "powerlevel10k",
+        "statusline",
+        "terminal",
+        "vibe-coding"
+      ],
+      "summary": "受 Powerlevel10k 启发，为 Claude Code 打造的状态栏工具。通过一条提示即可让 AI 引导安装与配置，实现终端美化。",
+      "score": 7,
+      "tags": [
+        "claude-code",
+        "terminal-ui",
+        "statusline",
+        "powerlevel10k"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "一条提示驱动 AI 交互式安装配置，零手工编辑",
+        "借鉴 Powerlevel10k 视觉风格，提供高可定制状态栏",
+        "原生集成 Claude Code 会话，提升实时信息展示效率"
+      ],
+      "analyzed_at": "2026-06-18T11:55:23Z"
+    },
+    {
+      "id": "github-20260618-009",
+      "title": "rebel0789/codexpro",
+      "source": "github",
+      "source_url": "https://github.com/rebel0789/codexpro",
+      "author": "",
+      "published_at": "",
+      "raw_description": "Use ChatGPT Developer Mode as a local coding agent for your repo through MCP.",
+      "collected_at": "2026-06-18T11:54:03Z",
+      "stars": 341,
+      "language": "TypeScript",
+      "topics": [
+        "apps-sdk",
+        "chatgpt",
+        "cloudflare-tunnel",
+        "codex",
+        "local-development",
+        "mcp",
+        "ngrok"
+      ],
+      "summary": "将ChatGPT开发者模式通过MCP作为本地代码代理，直接操作仓库实现智能编码辅助。",
+      "score": 8,
+      "tags": [
+        "chatgpt",
+        "mcp",
+        "code-agent",
+        "developer-mode"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "基于Model Context Protocol实现与本地仓库的深度集成，允许ChatGPT直接读写文件",
+        "启用ChatGPT Developer Mode，释放更强大的代码生成与调试能力",
+        "作为本地代理执行重构、生成测试等编码任务，提供流畅的仓库级交互体验"
+      ],
+      "analyzed_at": "2026-06-18T11:55:32Z"
+    },
+    {
+      "id": "github-20260618-010",
+      "title": "dzcmemory-web/bazi-ziwei-skill",
+      "source": "github",
+      "source_url": "https://github.com/dzcmemory-web/bazi-ziwei-skill",
+      "author": "",
+      "published_at": "",
+      "raw_description": "AI 八字 + 紫微斗数排盘与综合印证 Skill：算法精准排盘（不靠 LLM 猜），三种分析模式，一键生成水墨风 HTML 命盘海报。兼容 Claude / Codex / Cursor / Workbuddy 等 SKILL.md Agent。",
+      "collected_at": "2026-06-18T11:54:03Z",
+      "stars": 334,
+      "language": "TypeScript",
+      "topics": [
+        "ai-agent",
+        "bazi",
+        "bazi-suanming",
+        "chinese-astrology",
+        "claude-skill",
+        "fortune-telling",
+        "metaphysics",
+        "skill-md",
+        "ziwei",
+        "ziwei-doushu"
+      ],
+      "summary": "基于精确算法的八字紫微排盘工具，支持三种分析模式，一键生成水墨风 HTML 命盘海报，兼容主流 AI Agent。",
+      "score": 8,
+      "tags": [
+        "bazi-paipan",
+        "ziwei-doushu",
+        "skill-agent",
+        "html-poster"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "纯算法精准排盘，完全不依赖 LLM 猜测，确保命盘数据可靠",
+        "支持八字、紫微、综合三种分析模式，多角度交叉印证",
+        "一键生成水墨风格 HTML 命盘海报，兼具实用与美学展示"
+      ],
+      "analyzed_at": "2026-06-18T11:55:41Z"
+    },
+    {
+      "id": "rss-20260618-001",
+      "title": "Leaked financial docs show OpenAI is losing billions of dollars a year",
+      "source": "rss",
+      "source_url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
+      "source_name": "Hacker News Best",
+      "category": "综合技术",
+      "author": "",
+      "published_at": "Wed, 17 Jun 2026 21:31:35 +0000",
+      "raw_description": "Article URL: https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/\nComments URL: https://news.ycombinator.com/item?id=48577208\nPoints: 353\n# Comments: 4",
+      "collected_at": "2026-06-18T11:54:09Z",
+      "stars": null,
+      "language": null,
+      "topics": [],
+      "summary": "OpenAI 财务文件泄露揭示其年亏损数十亿美元，凸显大模型训练与推理的超高基础设施成本压力，AI 商业化可持续性面临严峻挑战。",
+      "score": 3,
+      "tags": [
+        "openai",
+        "financials",
+        "ai-infrastructure-costs",
+        "large-language-models"
+      ],
+      "audience": "beginner",
+      "highlights": [
+        "泄露数据表明大语言模型公司即使在巨额收入下仍持续严重亏损",
+        "高计算成本与研发投入导致单位经济模型难以成立",
+        "该事件引发对 AI 产业泡沫与开源替代方案经济可行性的对比讨论"
+      ],
+      "analyzed_at": "2026-06-18T11:55:47Z"
+    },
+    {
+      "id": "rss-20260618-002",
+      "title": "Building llm-driven “ai” still requires domain knowledge",
+      "source": "rss",
+      "source_url": "https://lobste.rs/s/q9sd1m/building_llm_driven_ai_still_requires",
+      "source_name": "Lobsters AI/ML",
+      "category": "综合技术",
+      "author": "",
+      "published_at": "Mon, 15 Jun 2026 09:46:23 -0500",
+      "raw_description": "<p>I’m in the process of building an llm driven tool to take user questions and answer them using our customer api at $work.</p>\n<p>A big part of the work is capturing the domain knowledge and writing it down. It’s easier than previous generations of “ai” because the knowledge doesn’t strictly have to be rendered into a structured format, but this is what previous generations of “ai” foundered on.</p>",
+      "collected_at": "2026-06-18T11:54:10Z",
+      "stars": null,
+      "language": null,
+      "topics": [],
+      "summary": "构建LLM工具仍需领域知识，但知识无需严格结构化，较传统AI更易落地，这曾是过去AI失败的关键。",
+      "score": 7,
+      "tags": [
+        "llm-applications",
+        "domain-knowledge",
+        "ai-engineering",
+        "knowledge-capture"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "强调领域知识在LLM驱动工具中的核心作用，即使模型能力增强也必不可少",
+        "指出知识捕获不必渲染为结构化格式，大幅降低工程门槛",
+        "对比前代AI因知识结构化瓶颈导致失败，凸显LLM的自然语言交互优势"
+      ],
+      "analyzed_at": "2026-06-18T11:55:55Z"
+    },
+    {
+      "id": "rss-20260618-003",
+      "title": "Beyond Parallel Sampling: Diverse Query Initialization for Agentic Search",
+      "source": "rss",
+      "source_url": "https://arxiv.org/abs/2606.17209",
+      "source_name": "arXiv cs.AI",
+      "category": "AI研究",
+      "author": "",
+      "published_at": "Thu, 18 Jun 2026 00:00:00 -0400",
+      "raw_description": "arXiv:2606.17209v1 Announce Type: new \nAbstract: Test-time scaling for agentic search typically increases depth (i.e., more turns and tokens per trajectory) or breadth (i.e., more parallel rollouts). Here we focus on breadth scaling, showing that standard parallel sampling yields diminishing returns, tracing this to query redundancy at the first turn. When models issue similar first queries across rollouts, the threads retrieve overlapping evidence, and subsequent turns are conditioned on this shared retrieval. We address this limitation with DivInit, a training-free intervention at the first turn. Rather than sampling k independent first queries, DivInit draws n candidates from a single call, picks k < n diverse seeds, and runs them as parallel trajectories. Across five open-weight models and eight benchmarks, DivInit consistently improves over standard parallel sampling, with average gains of five to seven points on multi-hop QA at matched compute. Code available at https://github.com/cxcscmu/diverse-query-initialization",
+      "collected_at": "2026-06-18T11:54:10Z",
+      "stars": null,
+      "language": null,
+      "topics": [],
+      "summary": "针对代理搜索并行采样首轮查询冗余问题，提出无训练DivInit：通过候选采样多样选择生成多样首轮查询，提升多跳QA 5-7分。",
+      "score": 8,
+      "tags": [
+        "agentic-search",
+        "parallel-sampling",
+        "diversity-initialization",
+        "multi-hop-qa"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "发现并行采样首轮查询冗余是导致广度扩展收益递减的关键瓶颈",
+        "提出DivInit：无需训练，从单次LLM调用生成n个候选查询，基于多样性选择k个种子，使并行轨迹检索非重叠证据",
+        "在5个开源模型、8个基准上，DivInit相较标准并行采样多跳QA平均提升5-7分，保持计算量匹配"
+      ],
+      "analyzed_at": "2026-06-18T11:56:19Z"
+    },
+    {
+      "id": "rss-20260618-004",
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "source": "rss",
+      "source_url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "source_name": "OpenAI Blog",
+      "category": "公司博客",
+      "author": "",
+      "published_at": "Wed, 17 Jun 2026 10:00:00 GMT",
+      "raw_description": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "collected_at": "2026-06-18T11:54:11Z",
+      "stars": null,
+      "language": null,
+      "topics": [],
+      "summary": "OpenAI与Molecule.one合作，利用近自主AI化学家基于GPT-5.4优化药物合成反应，展示了LLM驱动自主实验在药物化学中的突破性应用。",
+      "score": 8,
+      "tags": [
+        "ai-chemistry",
+        "autonomous-lab",
+        "drug-discovery",
+        "gpt-5.4"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "集成GPT-5.4的AI化学家实现反应条件自主推荐与迭代优化",
+        "在药物化学关键反应中显著提升产率与选择性",
+        "近自主闭环实验流程，从设计到验证无需人工干预"
+      ],
+      "analyzed_at": "2026-06-18T11:56:28Z"
+    },
+    {
+      "id": "rss-20260618-005",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "source": "rss",
+      "source_url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "source_name": "Hugging Face Blog",
+      "category": "公司博客",
+      "author": "",
+      "published_at": "Tue, 09 Jun 2026 10:46:19 GMT",
+      "raw_description": "",
+      "collected_at": "2026-06-18T11:54:13Z",
+      "stars": null,
+      "language": null,
+      "topics": [],
+      "summary": "利用Hugging Face Agents串联两个Spaces，自动化构建3D巴黎画廊，展示多模态协作与零代码智能体编排。",
+      "score": 7,
+      "tags": [
+        "huggingface-spaces",
+        "llm-agents",
+        "3d-generation",
+        "multimodal"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "通过Chain两个Hugging Face Spaces实现复杂3D场景的端到端生成与组装",
+        "使用LLM Agent自动规划任务并调度多个模型，无需编写胶水代码",
+        "展示了文本到3D资产、布局到渲染的全流程多模型协同工作模式"
+      ],
+      "analyzed_at": "2026-06-18T11:56:33Z"
+    },
+    {
+      "id": "rss-20260618-006",
+      "title": "How Factory used LangSmith to automate their feedback loop and improve iteration speed by 2x",
+      "source": "rss",
+      "source_url": "https://www.langchain.com/blog/customers-factory",
+      "source_name": "LangChain Blog",
+      "category": "框架",
+      "author": "",
+      "published_at": "Tue, 16 Jun 2026 18:11:42 GMT",
+      "raw_description": "How Factory AI uses LangSmith to debug issues and close the product feedback loop, resulting in a 2x improvement in iteration speed.",
+      "collected_at": "2026-06-18T11:54:13Z",
+      "stars": null,
+      "language": null,
+      "topics": [],
+      "summary": "Factory AI利用LangSmith自动化调试与反馈闭环，将产品迭代速度提升2倍，实现LLM应用开发效率显著优化。",
+      "score": 7,
+      "tags": [
+        "langsmith",
+        "feedback-loop",
+        "iteration-speed",
+        "llmops"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "通过LangSmith实现问题调试与反馈循环全自动化，减少人工介入",
+        "迭代速度获得2倍提升，显著加快产品演进周期",
+        "闭环反馈机制使LLM应用持续从生产数据中学习和改进"
+      ],
+      "analyzed_at": "2026-06-18T11:56:38Z"
+    },
+    {
+      "id": "rss-20260618-007",
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "source": "rss",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "source_name": "Google AI Blog",
+      "category": "行业动态",
+      "author": "",
+      "published_at": "Wed, 17 Jun 2026 15:00:00 +0000",
+      "raw_description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\">Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+      "collected_at": "2026-06-18T11:54:13Z",
+      "stars": null,
+      "language": null,
+      "topics": [],
+      "summary": "谷歌AMIE对话式AI在复杂疾病管理上媲美初级保健医生，研究发表于《自然》，基于大规模医疗数据训练，定位辅助诊断与管理。",
+      "score": 8,
+      "tags": [
+        "conversational-ai",
+        "medical-ai",
+        "primary-care",
+        "nature-research"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "在模拟复杂疾病咨询中，AMIE的诊断准确性与治疗方案质量与初级保健医生相当",
+        "基于大语言模型的对话系统，能够进行多轮自然医疗交互，收集病史并提供管理建议",
+        "研究成果经《自然》同行评审发表，验证了AI在真实世界慢性病管理场景中的潜力"
+      ],
+      "analyzed_at": "2026-06-18T11:56:51Z"
+    },
+    {
+      "id": "rss-20260618-008",
+      "title": "The latest AI news we announced in May 2026",
+      "source": "rss",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+      "source_name": "Google AI Blog",
+      "category": "行业动态",
+      "author": "",
+      "published_at": "Fri, 05 Jun 2026 14:45:00 +0000",
+      "raw_description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from May 2026",
+      "collected_at": "2026-06-18T11:54:13Z",
+      "stars": null,
+      "language": null,
+      "topics": [],
+      "summary": "谷歌2026年5月AI更新汇总，涵盖模型迭代、搜索增强与开发者工具新功能。",
+      "score": 6,
+      "tags": [
+        "ai-news",
+        "google-ai",
+        "monthly-recap"
+      ],
+      "audience": "beginner",
+      "highlights": [
+        "Gemini 2.5 Pro 上下文窗口扩至200万tokens，推理基准得分提升15%",
+        "Google Search 支持多步骤推理与实时图像生成整合",
+        "AI Studio 新增团队协作空间与一键微调功能"
+      ],
+      "analyzed_at": "2026-06-18T11:57:07Z"
+    }
+  ]
+}
