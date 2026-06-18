@@ -8,11 +8,17 @@
   4. Save     — 将文章保存为独立 JSON 文件到 knowledge/articles/
 
 用法:
+    # 全流程
     python pipeline/pipeline.py --sources github,rss --limit 20
-    python pipeline/pipeline.py --sources github --limit 5
-    python pipeline/pipeline.py --sources rss --limit 10
-    python pipeline/pipeline.py --sources github --limit 5 --dry-run
-    python pipeline/pipeline.py --verbose
+
+    # 仅采集（免费，不调 LLM）
+    python pipeline/pipeline.py --step 1 --dry-run --limit 20
+
+    # 采集 + 分析
+    python pipeline/pipeline.py --step 1 --step 2 --limit 20
+
+    # 整理 + 入库（加载今日已分析数据）
+    python pipeline/pipeline.py --step 3 --step 4
 """
 
 from __future__ import annotations
@@ -777,72 +783,106 @@ def run_pipeline(
     limit: int = _DEFAULT_LIMIT,
     dry_run: bool = False,
     since_days: int = _DEFAULT_SINCE_DAYS,
+    steps: list[int] | None = None,
 ) -> int:
-    """Execute the full 4-step pipeline.
+    """Execute the 4-step pipeline, optionally a subset.
 
     Args:
         sources: List of source names (``github``, ``rss``).
         limit: Maximum number of items to collect.
-        dry_run: If ``True``, skip file writes and LLM analysis.
+        dry_run: If ``True``, skip LLM analysis (only affects step 2).
         since_days: Days to look back for GitHub search.
+        steps: Which steps to execute (e.g. ``[1, 2]``). Default runs all.
 
     Returns:
         Exit code (0 on success).
     """
-    client = httpx.Client(
-        timeout=30.0,
-        follow_redirects=True,
-        headers={"User-Agent": "your-knowledge-pipeline/1.0"},
-    )
+    if steps is None:
+        steps = [1] if dry_run else [1, 2, 3, 4]
+
+    date_str = _today_str()
+    collected_raw: list[dict[str, Any]] | None = None
+    enriched: list[dict[str, Any]] | None = None
+    articles: list[dict[str, Any]] | None = None
 
     try:
         # ---- Step 1: Collect ----
-        logger.info("=" * 50)
-        logger.info("Step 1/4  Collect (sources=%s, limit=%d)", sources, limit)
-        logger.info("=" * 50)
-        raw_items = _collect(client, sources, limit, since_days)
-
-        if not raw_items:
-            logger.warning("No items collected, pipeline ends.")
-            return 0
-
-        _save_raw_collected(raw_items)
-
-        if dry_run:
-            logger.info("")
+        if 1 in steps:
             logger.info("=" * 50)
-            logger.info("[DRY-RUN] Pipeline stops after collection.")
-            logger.info("Raw data saved to knowledge/raw/, skipping analyze/organize/save to articles.")
+            logger.info("Step 1/4  Collect (sources=%s, limit=%d)", sources, limit)
             logger.info("=" * 50)
-            return 0
+            client = httpx.Client(
+                timeout=30.0,
+                follow_redirects=True,
+                headers={"User-Agent": "your-knowledge-pipeline/1.0"},
+            )
+            try:
+                collected_raw = _collect(client, sources, limit, since_days)
+            finally:
+                client.close()
+
+            if not collected_raw:
+                logger.warning("No items collected, pipeline ends.")
+                return 0
+
+            _save_raw_collected(collected_raw)
 
         # ---- Step 2: Analyze ----
-        logger.info("=" * 50)
-        logger.info("Step 2/4  Analyze")
-        logger.info("=" * 50)
-        enriched = _analyze(raw_items)
+        if 2 in steps:
+            if collected_raw is None:
+                collected_raw = _load_raw_items(date_str)
+            if not collected_raw:
+                logger.warning("No raw items available for analysis.")
+                return 0
 
-        if not enriched:
-            logger.warning("No items after analysis.")
-            return 0
+            if dry_run:
+                logger.info("=" * 50)
+                logger.info("Step 2/4  Analyze  [DRY-RUN skipped]")
+                logger.info("=" * 50)
+            else:
+                logger.info("=" * 50)
+                logger.info("Step 2/4  Analyze")
+                logger.info("=" * 50)
+                enriched = _analyze(collected_raw)
+                if enriched:
+                    _save_analyzed(enriched)
+                else:
+                    logger.warning("No items after analysis.")
+                    return 0
 
         # ---- Step 3: Organize ----
-        logger.info("=" * 50)
-        logger.info("Step 3/4  Organize")
-        logger.info("=" * 50)
-        articles = _organize(enriched)
+        if 3 in steps:
+            if enriched is None:
+                enriched = _load_analyzed(date_str)
+            if not enriched:
+                logger.warning("No analyzed items available for organization.")
+                return 0
 
-        if not articles:
-            logger.warning("No articles after organize (all filtered out).")
-            return 0
+            logger.info("=" * 50)
+            logger.info("Step 3/4  Organize")
+            logger.info("=" * 50)
+            articles = _organize(enriched)
+            if articles:
+                _save_organized(articles)
+            else:
+                logger.warning("No articles after organize (all filtered out).")
+                return 0
 
         # ---- Step 4: Save ----
-        logger.info("=" * 50)
-        logger.info("Step 4/4  Save%s", " [DRY-RUN]" if dry_run else "")
-        logger.info("=" * 50)
-        _save(articles, dry_run=False)
+        if 4 in steps:
+            if articles is None:
+                articles = _load_organized(date_str)
+            if not articles:
+                logger.warning("No articles available for saving.")
+                return 0
 
-        logger.info("Pipeline complete  %d article(s) final", len(articles))
+            logger.info("=" * 50)
+            logger.info("Step 4/4  Save")
+            logger.info("=" * 50)
+            _save(articles, dry_run=False)
+
+            logger.info("Pipeline complete  %d article(s) final", len(articles))
+
         return 0
 
     except KeyboardInterrupt:
@@ -851,8 +891,6 @@ def run_pipeline(
     except Exception:
         logger.exception("Pipeline failed with unexpected error")
         return 1
-    finally:
-        client.close()
 
 
 def _save_raw_collected(items: list[dict[str, Any]]) -> None:
@@ -866,6 +904,66 @@ def _save_raw_collected(items: list[dict[str, Any]]) -> None:
         "items": items,
     }
     _save_json(output_path, payload)
+
+
+def _load_raw_items(date_str: str) -> list[dict[str, Any]]:
+    """Load raw collected items for a given date."""
+    path = _RAW_DIR / f"raw-{date_str}.json"
+    if not path.exists():
+        logger.warning("Raw data not found: %s", path)
+        return []
+    data = _load_json(path)
+    if isinstance(data, dict):
+        return data.get("items", [])
+    return []
+
+
+def _save_analyzed(items: list[dict[str, Any]]) -> None:
+    """Save analyzed (enriched) data to intermediate file."""
+    today = _today_str()
+    path = _RAW_DIR / f"analyzed-{today}.json"
+    payload: dict[str, Any] = {
+        "analyzed_at": _now_iso(),
+        "item_count": len(items),
+        "items": items,
+    }
+    _save_json(path, payload)
+
+
+def _load_analyzed(date_str: str) -> list[dict[str, Any]]:
+    """Load analyzed data for a given date."""
+    path = _RAW_DIR / f"analyzed-{date_str}.json"
+    if not path.exists():
+        logger.warning("Analyzed data not found: %s", path)
+        return []
+    data = _load_json(path)
+    if isinstance(data, dict):
+        return data.get("items", [])
+    return []
+
+
+def _save_organized(items: list[dict[str, Any]]) -> None:
+    """Save organized (validated) data to intermediate file."""
+    today = _today_str()
+    path = _RAW_DIR / f"organized-{today}.json"
+    payload: dict[str, Any] = {
+        "organized_at": _now_iso(),
+        "item_count": len(items),
+        "items": items,
+    }
+    _save_json(path, payload)
+
+
+def _load_organized(date_str: str) -> list[dict[str, Any]]:
+    """Load organized data for a given date."""
+    path = _RAW_DIR / f"organized-{date_str}.json"
+    if not path.exists():
+        logger.warning("Organized data not found: %s", path)
+        return []
+    data = _load_json(path)
+    if isinstance(data, dict):
+        return data.get("items", [])
+    return []
 
 
 # ============================================================================
@@ -883,6 +981,8 @@ def _build_parser() -> argparse.ArgumentParser:
               python pipeline/pipeline.py --sources github --limit 5
               python pipeline/pipeline.py --sources rss --limit 10
               python pipeline/pipeline.py --sources github --limit 5 --dry-run
+              python pipeline/pipeline.py --step 1 --step 2 --limit 20
+              python pipeline/pipeline.py --step 3 --step 4
               python pipeline/pipeline.py --verbose
         """),
     )
@@ -910,6 +1010,14 @@ def _build_parser() -> argparse.ArgumentParser:
         action="store_true",
         default=False,
         help="干跑模式：仅采集并展示计划，不调用 LLM 也不写入文件",
+    )
+    parser.add_argument(
+        "--step",
+        type=int,
+        action="append",
+        choices=[1, 2, 3, 4],
+        default=None,
+        help="指定要执行的步骤（可多次指定），如 --step 1 --step 2。默认执行全部 4 步",
     )
     parser.add_argument(
         "--verbose",
@@ -942,12 +1050,14 @@ def main(argv: Sequence[str] | None = None) -> int:
         logger.setLevel(logging.DEBUG)
 
     sources = _parse_sources(args.sources)
+    steps = args.step  # None = all, list of ints otherwise
 
     return run_pipeline(
         sources=sources,
         limit=args.limit,
         dry_run=args.dry_run,
         since_days=args.since_days,
+        steps=steps,
     )
 
 
