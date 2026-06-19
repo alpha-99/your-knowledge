@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260619-003",
+  "title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
+  "source": "rss",
+  "source_name": "arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2606.19464",
+  "category": "AI研究",
+  "author": "",
+  "published_at": "Fri, 19 Jun 2026 00:00:00 -0400",
+  "collected_at": "2026-06-19T12:12:53Z",
+  "summary": "提出AgenticRei框架，用OWL义务策略语言在LLM外部实现运行时治理，支持义务、豁免与冲突解决，超越传统权限控制。",
+  "score": 9,
+  "tags": [
+    "agentic-ai",
+    "deontic-policies",
+    "runtime-governance",
+    "owl-reasoning"
+  ],
+  "audience": "advanced",
+  "highlights": [
+    "基于OWL和Rei框架构建义务策略语言，由LLM外部高性能逻辑引擎运行时评估，统一治理工具调用和Agent间消息。",
+    "实现义务生命周期管理、特定场景下的义务豁免（dispensations）以及元策略冲突解决，覆盖当前策略引擎缺失的治理维度。",
+    "可自然组合A2AS等工业标准，并通过本体推理支持医疗、网络安全等领域的类层次推理。"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-19T12:15:23Z"
+}

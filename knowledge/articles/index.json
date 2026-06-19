@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-18T11:57:07Z",
-  "total": 66,
+  "updated_at": "2026-06-19T12:15:23Z",
+  "total": 77,
   "articles": [
     {
       "id": "github-20260610-001",
@@ -450,6 +450,81 @@
       ],
       "status": "published",
       "file": "github-20260618-010.json"
+    },
+    {
+      "id": "github-20260619-006",
+      "title": "eli-labz/Third-Eye",
+      "source": "github",
+      "source_url": "https://github.com/eli-labz/Third-Eye",
+      "score": 7,
+      "tags": [
+        "osint",
+        "situational-awareness",
+        "threat-intelligence",
+        "open-source"
+      ],
+      "status": "published",
+      "file": "github-20260619-006.json"
+    },
+    {
+      "id": "github-20260619-007",
+      "title": "dongshuyan/compass-skills",
+      "source": "github",
+      "source_url": "https://github.com/dongshuyan/compass-skills",
+      "score": 7,
+      "tags": [
+        "agent-framework",
+        "skill-orchestration",
+        "personalization",
+        "alignment"
+      ],
+      "status": "published",
+      "file": "github-20260619-007.json"
+    },
+    {
+      "id": "github-20260619-008",
+      "title": "majidmanzarpour/threejs-game-skills",
+      "source": "github",
+      "source_url": "https://github.com/majidmanzarpour/threejs-game-skills",
+      "score": 8,
+      "tags": [
+        "three-js",
+        "agent-skills",
+        "game-development",
+        "ai-generated-assets"
+      ],
+      "status": "published",
+      "file": "github-20260619-008.json"
+    },
+    {
+      "id": "github-20260619-009",
+      "title": "baskduf/FableCodex",
+      "source": "github",
+      "source_url": "https://github.com/baskduf/FableCodex",
+      "score": 6,
+      "tags": [
+        "coding-agent",
+        "codex-style",
+        "llm-workflow",
+        "planning"
+      ],
+      "status": "published",
+      "file": "github-20260619-009.json"
+    },
+    {
+      "id": "github-20260619-010",
+      "title": "gykim80/perfectpixel-studio",
+      "source": "github",
+      "source_url": "https://github.com/gykim80/perfectpixel-studio",
+      "score": 8,
+      "tags": [
+        "ai-sprite-generator",
+        "game-development",
+        "text-to-sprite",
+        "wails"
+      ],
+      "status": "published",
+      "file": "github-20260619-010.json"
     },
     {
       "id": "rss-20260610-001",
@@ -987,6 +1062,96 @@
       ],
       "status": "published",
       "file": "rss-20260618-007.json"
+    },
+    {
+      "id": "rss-20260619-001",
+      "title": "Noam Shazeer Joins OpenAI",
+      "source": "rss",
+      "source_url": "https://twitter.com/NoamShazeer/status/2067400851438932297",
+      "score": 6,
+      "tags": [
+        "ai-talent",
+        "openai",
+        "transformer",
+        "character-ai"
+      ],
+      "status": "published",
+      "file": "rss-20260619-001.json"
+    },
+    {
+      "id": "rss-20260619-002",
+      "title": "Agent memory on Elasticsearch: hybrid retrieval and DLS",
+      "source": "rss",
+      "source_url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+      "score": 7,
+      "tags": [
+        "agent-memory",
+        "elasticsearch",
+        "hybrid-retrieval",
+        "document-level-security"
+      ],
+      "status": "published",
+      "file": "rss-20260619-002.json"
+    },
+    {
+      "id": "rss-20260619-003",
+      "title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
+      "source": "rss",
+      "source_url": "https://arxiv.org/abs/2606.19464",
+      "score": 9,
+      "tags": [
+        "agentic-ai",
+        "deontic-policies",
+        "runtime-governance",
+        "owl-reasoning"
+      ],
+      "status": "published",
+      "file": "rss-20260619-003.json"
+    },
+    {
+      "id": "rss-20260619-004",
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "source": "rss",
+      "source_url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "score": 7,
+      "tags": [
+        "chatgpt-enterprise",
+        "spend-controls",
+        "usage-analytics",
+        "cost-management"
+      ],
+      "status": "published",
+      "file": "rss-20260619-004.json"
+    },
+    {
+      "id": "rss-20260619-005",
+      "title": "MosaicLeaks: Can your research agent keep a secret?",
+      "source": "rss",
+      "source_url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "score": 7,
+      "tags": [
+        "agent-security",
+        "privacy-benchmark",
+        "research-agent",
+        "confidentiality"
+      ],
+      "status": "published",
+      "file": "rss-20260619-005.json"
+    },
+    {
+      "id": "rss-20260619-006",
+      "title": "Introducing LangSmith’s No Code Agent Builder",
+      "source": "rss",
+      "source_url": "https://www.langchain.com/blog/langsmith-agent-builder",
+      "score": 7,
+      "tags": [
+        "no-code",
+        "agent-builder",
+        "langsmith",
+        "mcp"
+      ],
+      "status": "published",
+      "file": "rss-20260619-006.json"
     }
   ]
 }

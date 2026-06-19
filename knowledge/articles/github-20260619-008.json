@@ -1,0 +1,27 @@
+{
+  "id": "github-20260619-008",
+  "title": "majidmanzarpour/threejs-game-skills",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/majidmanzarpour/threejs-game-skills",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-19T12:12:53Z",
+  "summary": "面向AI Agent的Three.js游戏开发技能包，集成AAA级图形、UI、测试及AI生成3D/图像/音频资产，可快速构建精致浏览器游戏。",
+  "score": 8,
+  "tags": [
+    "three-js",
+    "agent-skills",
+    "game-development",
+    "ai-generated-assets"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "提供完整游戏开发技能链，覆盖玩法、图形、UI、质量保证等环节",
+    "支持AI驱动的3D模型、图像和音频资产自动生成，加速原型构建",
+    "基于Agent框架设计，可直接嵌入智能体工作流实现自动化游戏创建"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-19T12:15:23Z"
+}

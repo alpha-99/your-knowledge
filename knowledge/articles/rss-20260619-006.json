@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260619-006",
+  "title": "Introducing LangSmith’s No Code Agent Builder",
+  "source": "rss",
+  "source_name": "LangChain Blog",
+  "source_url": "https://www.langchain.com/blog/langsmith-agent-builder",
+  "category": "框架",
+  "author": "",
+  "published_at": "Thu, 18 Jun 2026 17:32:35 GMT",
+  "collected_at": "2026-06-19T12:12:56Z",
+  "summary": "LangSmith推出无代码代理构建器，支持记忆、引导提示和MCP工具，让非技术人员轻松创建AI代理。",
+  "score": 7,
+  "tags": [
+    "no-code",
+    "agent-builder",
+    "langsmith",
+    "mcp"
+  ],
+  "audience": "beginner",
+  "highlights": [
+    "无代码界面，降低代理构建门槛，无需编程经验",
+    "内置记忆和引导提示功能，增强交互体验",
+    "集成MCP工具，扩展代理能力"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-19T12:15:23Z"
+}

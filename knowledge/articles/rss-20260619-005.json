@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260619-005",
+  "title": "MosaicLeaks: Can your research agent keep a secret?",
+  "source": "rss",
+  "source_name": "Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+  "category": "公司博客",
+  "author": "",
+  "published_at": "Thu, 18 Jun 2026 18:13:13 GMT",
+  "collected_at": "2026-06-19T12:12:56Z",
+  "summary": "MosaicLeaks基准测试评估AI研究代理在长文档中保守秘密的能力，揭示代理易无意识泄露敏感信息的隐私风险。",
+  "score": 7,
+  "tags": [
+    "agent-security",
+    "privacy-benchmark",
+    "research-agent",
+    "confidentiality"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "引入真实场景的机密文档问答任务，测试代理在多轮交互中防止秘密泄露的能力",
+    "发现多款主流研究代理在无明确提示下，会无意中透露嵌入的敏感信息，泄露率高达67%",
+    "提出基于泄露率与任务完成度的双重评估指标，量化代理在保密与有用性间的权衡"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-19T12:15:23Z"
+}
