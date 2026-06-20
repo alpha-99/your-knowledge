@@ -1,0 +1,27 @@
+{
+  "id": "github-20260620-008",
+  "title": "nnecrkvenuOX/formcms",
+  "source": "github",
+  "source_name": "",
+  "source_url": "https://github.com/nnecrkvenuOX/formcms",
+  "category": "",
+  "author": "",
+  "published_at": "",
+  "collected_at": "2026-06-20T10:36:27Z",
+  "summary": "基于ASP.NET Core和React的开源无头CMS，集成REST/GraphQL API与GrapesJS可视化页面设计器。",
+  "score": 7,
+  "tags": [
+    "headless-cms",
+    "aspnet-core",
+    "react",
+    "graphql"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "同时提供RESTful和GraphQL双API接口，满足不同客户端需求",
+    "集成GrapesJS拖拽式页面构建器，实现可视化内容编辑",
+    "基于ASP.NET Core构建，兼顾高性能与跨平台支持"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-20T10:38:55Z"
+}

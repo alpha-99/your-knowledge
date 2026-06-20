@@ -1,0 +1,114 @@
+{
+  "organized_at": "2026-06-20T10:38:55Z",
+  "item_count": 4,
+  "items": [
+    {
+      "id": "github-20260620-005",
+      "title": "Forsy-AI/agent-apprenticeship",
+      "source": "github",
+      "source_name": "",
+      "source_url": "https://github.com/Forsy-AI/agent-apprenticeship",
+      "category": "",
+      "author": "",
+      "published_at": "",
+      "collected_at": "2026-06-20T10:36:27Z",
+      "summary": "构建AI代理从真实工作流中迭代学习的生态，通过训练信号交换实现持续进化。",
+      "score": 7,
+      "tags": [
+        "agent-apprenticeship",
+        "iterative-learning",
+        "human-feedback",
+        "agent-training"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "提出“学徒制”代理学习范式，模拟人类从观察与实践中逐步掌握技能的过程",
+        "基于迭代循环（iterative loops）与训练信号交换机制，实现闭环的在线学习与优化",
+        "面向真实世界工作场景，强调将执行反馈作为训练信号注入代理进化"
+      ],
+      "status": "published",
+      "updated_at": "2026-06-20T10:38:55Z"
+    },
+    {
+      "id": "github-20260620-008",
+      "title": "nnecrkvenuOX/formcms",
+      "source": "github",
+      "source_name": "",
+      "source_url": "https://github.com/nnecrkvenuOX/formcms",
+      "category": "",
+      "author": "",
+      "published_at": "",
+      "collected_at": "2026-06-20T10:36:27Z",
+      "summary": "基于ASP.NET Core和React的开源无头CMS，集成REST/GraphQL API与GrapesJS可视化页面设计器。",
+      "score": 7,
+      "tags": [
+        "headless-cms",
+        "aspnet-core",
+        "react",
+        "graphql"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "同时提供RESTful和GraphQL双API接口，满足不同客户端需求",
+        "集成GrapesJS拖拽式页面构建器，实现可视化内容编辑",
+        "基于ASP.NET Core构建，兼顾高性能与跨平台支持"
+      ],
+      "status": "published",
+      "updated_at": "2026-06-20T10:38:55Z"
+    },
+    {
+      "id": "github-20260620-010",
+      "title": "fendouai/best-humanizer-handbook",
+      "source": "github",
+      "source_name": "",
+      "source_url": "https://github.com/fendouai/best-humanizer-handbook",
+      "category": "",
+      "author": "",
+      "published_at": "",
+      "collected_at": "2026-06-20T10:36:27Z",
+      "summary": "系统化提升AI写作人类感的指南，涵盖风格润色、可信度增强及检测规避，提供可直接落地的实践策略。",
+      "score": 7,
+      "tags": [
+        "ai-humanizer",
+        "writing-guide",
+        "ai-assisted-writing",
+        "humanization-techniques"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "总结10+种降低AI检测率的文本改写模式，包括句式变体、情感注入与逻辑跳转",
+        "提供针对不同模型（如GPT-4）输出特性的语气调整模板与前后对比案例",
+        "包含可操作的核查清单，覆盖语言自然度、事实准确性与观点一致性三个维度"
+      ],
+      "status": "published",
+      "updated_at": "2026-06-20T10:38:55Z"
+    },
+    {
+      "id": "rss-20260620-001",
+      "title": "Is AI ruining our skills? Early results are in – and they're not good",
+      "source": "rss",
+      "source_name": "Hacker News Best",
+      "source_url": "https://www.nature.com/articles/d41586-026-01947-1",
+      "category": "综合技术",
+      "author": "",
+      "published_at": "Fri, 19 Jun 2026 18:00:48 +0000",
+      "collected_at": "2026-06-20T10:36:35Z",
+      "summary": "研究揭示AI工具过度使用可能导致人类认知技能退化，早期实验显示AI辅助后独立解决问题能力显著下降，强调需平衡技术便利与技能保持。",
+      "score": 7,
+      "tags": [
+        "ai-impact",
+        "skill-degradation",
+        "human-ai-interaction",
+        "cognitive-offloading"
+      ],
+      "audience": "intermediate",
+      "highlights": [
+        "早期实验表明，依赖AI完成任务的被试在后续独立测试中问题解决准确率下降约20%",
+        "研究识别出“认知卸载”现象，即用户将思维任务转交给AI，导致主动推理能力减弱",
+        "提出技能保留框架，建议在AI辅助设计中引入必要难度以维持人类长期专业能力"
+      ],
+      "status": "published",
+      "updated_at": "2026-06-20T10:38:55Z"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260620-001",
+  "title": "Is AI ruining our skills? Early results are in – and they're not good",
+  "source": "rss",
+  "source_name": "Hacker News Best",
+  "source_url": "https://www.nature.com/articles/d41586-026-01947-1",
+  "category": "综合技术",
+  "author": "",
+  "published_at": "Fri, 19 Jun 2026 18:00:48 +0000",
+  "collected_at": "2026-06-20T10:36:35Z",
+  "summary": "研究揭示AI工具过度使用可能导致人类认知技能退化，早期实验显示AI辅助后独立解决问题能力显著下降，强调需平衡技术便利与技能保持。",
+  "score": 7,
+  "tags": [
+    "ai-impact",
+    "skill-degradation",
+    "human-ai-interaction",
+    "cognitive-offloading"
+  ],
+  "audience": "intermediate",
+  "highlights": [
+    "早期实验表明，依赖AI完成任务的被试在后续独立测试中问题解决准确率下降约20%",
+    "研究识别出“认知卸载”现象，即用户将思维任务转交给AI，导致主动推理能力减弱",
+    "提出技能保留框架，建议在AI辅助设计中引入必要难度以维持人类长期专业能力"
+  ],
+  "status": "published",
+  "updated_at": "2026-06-20T10:38:55Z"
+}
