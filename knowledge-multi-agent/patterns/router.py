@@ -12,6 +12,7 @@ Router 是最常见的 Agent 设计模式之一：
 import json
 import os
 import urllib.request
+import urllib.parse
 from typing import Callable
 
 from workflows.model_client import chat, chat_json
@@ -30,7 +31,7 @@ def github_search_handler(query: str) -> str:
 
     # 清理查询词
     search_query = query.replace("搜索", "").replace("github", "").strip()
-    url = f"https://api.github.com/search/repositories?q={search_query}&sort=stars&per_page=5"
+    url = f"https://api.github.com/search/repositories?q={urllib.parse.quote(search_query)}&sort=stars&per_page=5"
 
     try:
         req = urllib.request.Request(url, headers=headers)
