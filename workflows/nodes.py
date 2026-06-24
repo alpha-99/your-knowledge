@@ -292,6 +292,48 @@ def review_node(state: KBState) -> dict:
         "cost_tracker": tracker,
     }
 
+# ---------------------------------------------------------------------------
+# 节点 4: 审核节点 — 测试模式（模拟审核循环）
+# ---------------------------------------------------------------------------
+def review_node_test(state: KBState) -> dict:
+    """审核节点（测试模式）：模拟审核循环，验证 Review Loop 逻辑
+
+    测试逻辑：
+    - iteration 0 (第1次): review_passed=False, 反馈指出摘要质量不足
+    - iteration 1 (第2次): review_passed=False, 反馈指出标签不够精确
+    - iteration 2 (第3次): review_passed=True,  反馈认可修正结果
+    """
+
+    articles = state.get("articles", [])
+    iteration = state.get("iteration", 0)
+
+    if not articles:
+        return {
+            "review_passed": True,
+            "review_feedback": "没有条目需要审核",
+            "iteration": iteration + 1,
+        }
+
+    feedbacks = [
+        "TEST-第1次审核（迭代0）：摘要质量不足，缺少核心技术细节。请深入分析技术原理和实现方式。",
+        "TEST-第2次审核（迭代1）：标签不够精确，'ai' 过于宽泛。请使用更专业的术语如 'llm-inference'、'multi-agent'。",
+        "TEST-第3次审核（迭代2）：修正后质量达标，摘要已包含核心细节，标签专业准确，审核通过。",
+    ]
+
+    if iteration >= 2:
+        passed = True
+    else:
+        passed = False
+
+    feedback = feedbacks[min(iteration, 2)]
+
+    print(f"[Reviewer-TEST] iteration={iteration}, review_passed={passed}")
+
+    return {
+        "review_passed": passed,
+        "review_feedback": feedback,
+        "iteration": iteration + 1,
+}
 
 # ---------------------------------------------------------------------------
 # 节点 5: 保存节点 — 将 articles 写入 knowledge/articles/ 目录
