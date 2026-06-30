@@ -113,10 +113,6 @@ def review_node(state: KBState) -> dict:
         weighted_score = _calculate_weighted_score(scores)
         passed = weighted_score >= PASS_THRESHOLD
 
-        if iteration >= MAX_ITERATIONS - 1:
-            passed = True
-            feedback += "\n[系统] 已达最大审核次数(3次)，强制通过。"
-
         print(
             f"[Reviewer] 加权得分: {weighted_score}/10 (模型认为: {result.get('passed', 'N/A')}), "
             f"通过: {passed}, 迭代 {iteration + 1}/{MAX_ITERATIONS}"

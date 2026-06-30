@@ -58,6 +58,8 @@ class KBState(TypedDict):
     # ------------------------------------------------------------------
     iteration: int
 
+    needs_human_review: bool # ← 新增：HumanFlag 节点设为 True
+
     # ------------------------------------------------------------------
     # 全局累加 — LLM 调用 token 用量与成本追踪
     # 格式: {prompt_tokens, completion_tokens, total_cost_yuan}

@@ -206,7 +206,11 @@ def organize_node(state: KBState) -> dict:
         })
 
     print(f"[Organizer] 整理出 {len(articles)} 条知识条目 (迭代 {iteration})")
-    return {"articles": articles, "cost_tracker": tracker}
+
+    updated_state = {**state, "articles": articles, "cost_tracker": tracker}
+    save_result = save_node(updated_state)
+
+    return {"articles": articles, "cost_tracker": tracker, **save_result}
 
 
 # ---------------------------------------------------------------------------
